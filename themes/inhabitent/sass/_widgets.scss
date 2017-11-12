@@ -21,3 +21,19 @@
 .widget_search .search-submit {
 	display: none;
 }
+
+.widget_archive{
+	ul{
+		list-style-type: none;
+		padding:0;
+		margin:0;
+		li a{
+			text-decoration: none;
+		}
+	}
+}
+
+.contact-meta a{
+	text-decoration: none;
+	color:$green;
+}

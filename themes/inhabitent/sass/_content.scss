@@ -30,14 +30,27 @@
 .entry-title{
 	position: absolute;
 	top:0;
-	background-color: $greenbrand;
+	background-color: $green;
 	margin-top:2rem;
+	font-size:2.0rem;
+	max-width:75%;
 	
 		a{
 			color:#fff;
 			text-decoration:none;
 		}
 }
+
+.entry-meta{
+	position: absolute;
+	right: 0;
+	bottom: 5%;
+	background-color:$green;
+	color:$main;
+	
+}
+
+
 .hentry {
 	margin: 0 0 $base__space-unit;
 }
@@ -82,6 +95,50 @@
 	padding-top:5%;
 }
 
+
+
+
+
+// FOOTER// 
+
+.site-footer{
+	background:url("../../images/dark-wood.png");
+}
+
 .footer-info-des{
-	display:flex;
+  display:flex;
+	justify-content: space-around;
+	height:300px;
+	width:100%;
+	background-size:cover;
+	padding-top:2.5rem;
+}
+
+.footer-text{
+	color:$orange;
+}
+
+.footer-text p{
+	color:$main;
+}
+
+.footer-text a{
+	color:$main;
+	text-decoration: none;
+}
+
+.text-logo a{
+	img{
+	width:250px;
+	}
+}
+
+.social-media-icons{
+	font-size:1.5rem;
+}
+
+.copyright{
+text-align: center;
+padding-bottom:1.5rem;
+color:$main;
 }
