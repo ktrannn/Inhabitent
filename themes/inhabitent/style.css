@@ -613,7 +613,7 @@ a {
   .entry-header img {
     width: 100%; }
 
-h1.entry-title {
+.single-post h1.entry-title {
   position: absolute;
   top: 0;
   background-color: #248A83;
@@ -622,15 +622,15 @@ h1.entry-title {
   max-width: 75%;
   color: #fff; }
 
-.comments-link a {
+.single-post .comments-link a {
   text-decoration: none;
   color: #fff;
   padding-left: 1rem; }
 
-.entry-footer .cat-links {
+.single-post .entry-footer .cat-links {
   padding-right: 1rem; }
 
-.entry-footer a {
+.single-post .entry-footer a {
   text-decoration: none;
   color: #248A83; }
 
