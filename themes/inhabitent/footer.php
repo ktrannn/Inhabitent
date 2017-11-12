@@ -7,14 +7,31 @@
 
 ?>
 
-			</div><!-- #content -->
+		</div><!-- #content -->
 
 			<footer id="colophon" class="site-footer" role="contentinfo">
-				<div class="site-info">
-					<a href="<?php echo esc_url( 'https://wordpress.org/' ); ?>"><?php printf( esc_html( 'Proudly powered by %s' ), 'WordPress' ); ?></a>
+				<div class="footer-info-des">
+					<div class="contact-info">
+						<h3>Contact Info</h3>
+							<p>
+							<i class="fa fa-envelope icon" aria-hidden="true"></i>
+							<a href="">info@inhabitant.com</a>	
+						</p>
+						<p>
+							<i class="fa fa-phone icon" aria-hidden="true"></i>
+							<a href="">778-456-7891</a>
+						</p>
+					</div>
+					<div class="business-hours-info">
+						<h3>Business Hours</h3>
+							<p><span class="date-bold">Monday-Friday:</span> 9am to 5pm</p>
+							<p><span class="date-bold">Saturday:</span> 10am to 2pm</p>
+							<p><span class="date-bold">Sunday:</span> Closed</p>
+					</div>
+					<div><a href="<?php echo esc_url( home_url( '/' ) ); ?>"></a></div>
 				</div><!-- .site-info -->
 			</footer><!-- #colophon -->
-		</div><!-- #page -->
+		
 
 		<?php wp_footer(); ?>
 

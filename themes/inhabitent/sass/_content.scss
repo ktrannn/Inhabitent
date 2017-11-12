@@ -4,10 +4,40 @@
 
 /* Posts and pages */
 
+.site-content{
+	display:flex;
+	width:1120px;
+	@include center();
+}
+
+.content-area{
+	width:75%;
+	padding-right:5%;
+	border-right:#eee solid 1px;
+}
+
 .sticky {
 	display: block;
 }
 
+.entry-header {
+	position:relative;
+	img{
+		width:100%;
+	}
+}
+
+.entry-title{
+	position: absolute;
+	top:0;
+	background-color: $greenbrand;
+	margin-top:2rem;
+	
+		a{
+			color:#fff;
+			text-decoration:none;
+		}
+}
 .hentry {
 	margin: 0 0 $base__space-unit;
 }
@@ -46,4 +76,12 @@
 }
 .bypostauthor {
 	display: block;
+}
+
+.post-14{
+	padding-top:5%;
+}
+
+.footer-info-des{
+	display:flex;
 }
