@@ -436,7 +436,9 @@ a {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  border-bottom: #eee solid 1px; }
+  border-bottom: #eee solid 1px;
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
   .main-navigation ul {
     display: none;
     list-style: none;
@@ -579,7 +581,8 @@ a {
   padding: 0;
   margin: 0; }
   .widget_archive ul li a {
-    text-decoration: none; }
+    text-decoration: none;
+    color: #248A83; }
 
 .contact-meta a {
   text-decoration: none;
@@ -610,14 +613,35 @@ a {
   .entry-header img {
     width: 100%; }
 
-.entry-title {
+h1.entry-title {
+  position: absolute;
+  top: 0;
+  background-color: #248A83;
+  margin-top: 2rem;
+  font-size: 2.0rem;
+  max-width: 75%;
+  color: #fff; }
+
+.comments-link a {
+  text-decoration: none;
+  color: #fff;
+  padding-left: 1rem; }
+
+.entry-footer .cat-links {
+  padding-right: 1rem; }
+
+.entry-footer a {
+  text-decoration: none;
+  color: #248A83; }
+
+h2.entry-title {
   position: absolute;
   top: 0;
   background-color: #248A83;
   margin-top: 2rem;
   font-size: 2.0rem;
   max-width: 75%; }
-  .entry-title a {
+  h2.entry-title a {
     color: #fff;
     text-decoration: none; }
 
