@@ -570,7 +570,8 @@ a {
 
 .widget-area {
   width: 25%;
-  padding-left: 5%; }
+  padding-left: 5%;
+  border-left: #eee solid 1px; }
 
 /* Search widget. */
 .widget_search .search-submit {
@@ -602,8 +603,7 @@ a {
 
 .content-area {
   width: 75%;
-  padding-right: 5%;
-  border-right: #eee solid 1px; }
+  padding-right: 5%; }
 
 .sticky {
   display: block; }
@@ -720,6 +720,40 @@ h2.entry-title {
   text-align: center;
   padding-bottom: 1.5rem;
   color: #fff; }
+
+.page-id-5 div#content.site-content {
+  margin-left: 0;
+  margin-right: 0; }
+  .page-id-5 div#content.site-content div#primary.content-area {
+    width: 100%;
+    padding-right: 0; }
+  .page-id-5 div#content.site-content div#secondary.widget-area {
+    display: none; }
+
+#post-5 {
+  width: 100vw; }
+  #post-5 .entry-content {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1rem; }
+  #post-5 .entry-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/about-hero.jpg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url("../../images/about-hero.jpg");
+    background-size: cover,cover;
+    height: 100vh;
+    text-align: center;
+    width: 100vw; }
+    #post-5 .entry-header .entry-title {
+      font-size: 3rem;
+      -ms-flex-item-align: center;
+          align-self: center;
+      margin-left: auto;
+      margin-right: auto;
+      color: #fff; }
 
 /*--------------------------------------------------------------
 # Media

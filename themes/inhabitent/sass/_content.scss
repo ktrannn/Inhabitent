@@ -13,7 +13,6 @@
 .content-area{
 	width:75%;
 	padding-right:5%;
-	border-right:#eee solid 1px;
 }
 
 .sticky {
@@ -174,3 +173,54 @@ color:$main;
 }
 
 
+//
+
+
+
+//ABOUT
+.page-id-5{
+	div#content.site-content{
+		margin-left:0;
+		margin-right:0;
+	
+		div#primary.content-area{
+			width:100%;
+			padding-right:0;
+		
+		}
+		div#secondary.widget-area{
+			display:none;
+		}
+
+	}	
+}
+
+
+#post-5{
+	width:100vw;
+	.entry-content{
+		width: 850px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom:1rem;
+	}
+	.entry-header{
+		display:flex;
+		background:linear-gradient( to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100% ),
+		url("../../images/about-hero.jpg");
+		background-size:cover,cover;
+		height:100vh;
+		text-align: center;
+		width:100vw;
+
+		.entry-title{
+			font-size:3rem;
+			align-self: center;
+			@include center();
+			color:$main;
+		}
+	}
+}
+
+
+//.site content margin left and right 0
