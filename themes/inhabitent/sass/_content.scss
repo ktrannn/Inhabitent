@@ -223,4 +223,21 @@ color:$main;
 }
 
 
-//.site content margin left and right 0
+//front-page
+
+.page-id-60{
+	.site-content{
+		margin-left:0;
+		margin-right:0;
+		width:100%;
+		.content-area{
+			background:url("../../images/home-hero.jpg");
+			width:100vw;
+			height:100vh;
+			background-size:cover,cover;
+		}
+		.widget-area{
+			display:none;
+		}
+	}
+}

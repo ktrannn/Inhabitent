@@ -755,6 +755,18 @@ h2.entry-title {
       margin-right: auto;
       color: #fff; }
 
+.page-id-60 .site-content {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%; }
+  .page-id-60 .site-content .content-area {
+    background: url("../../images/home-hero.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover,cover; }
+  .page-id-60 .site-content .widget-area {
+    display: none; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
