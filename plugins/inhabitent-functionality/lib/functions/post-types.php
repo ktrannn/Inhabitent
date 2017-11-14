@@ -5,9 +5,6 @@
  * @link  http://codex.wordpress.org/Function_Reference/register_post_type
  */
 
-// Add your custom post types here...
-
-// Register Custom Post Type
 function inhabitent_cpt_product() {
   
     $labels = array(
