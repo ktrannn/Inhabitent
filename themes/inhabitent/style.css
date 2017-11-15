@@ -627,7 +627,7 @@ a {
 
 .single-post h1.entry-title {
   position: absolute;
-  top: 0;
+  top: 10%;
   background-color: #248A83;
   margin-top: 2rem;
   font-size: 2.0rem;
@@ -646,16 +646,17 @@ a {
   text-decoration: none;
   color: #248A83; }
 
-h2.entry-title {
+.blog .hfeed.site .site-content .content-area .site-main .post .entry-header h2.entry-title {
   position: absolute;
   top: 0;
   background-color: #248A83;
   margin-top: 2rem;
   font-size: 2.0rem;
   max-width: 75%; }
-  h2.entry-title a {
-    color: #fff;
-    text-decoration: none; }
+
+.blog .hfeed.site .site-content .content-area .site-main .post .entry-header a {
+  color: #fff;
+  text-decoration: none; }
 
 .entry-meta {
   position: absolute;
@@ -696,17 +697,16 @@ h2.entry-title {
   display: block; }
 
 .post-14 {
-  padding-top: 5%; }
+  padding-top: 15%; }
 
 .page-id-60 .site-content {
   margin-left: 0;
   margin-right: 0;
   width: 100%; }
   .page-id-60 .site-content .content-area {
-    background: url("../../images/home-hero.jpg");
     width: 100vw;
     height: 100vh;
-    background-size: cover,cover; }
+    padding-right: 0; }
   .page-id-60 .site-content .widget-area {
     display: none; }
 
@@ -774,6 +774,10 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.page-id-60 .hfeed .site-content .content-area .site-main .journal-entries .entry-title {
+  position: relative;
+  max-width: 50%; }
+
 .site-footer {
   background: url("../../images/dark-wood.png"); }
 

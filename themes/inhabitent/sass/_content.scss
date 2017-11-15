@@ -25,10 +25,19 @@
 		width:100%;
 	}
 }
+
+//single post for van camping contest have to change top to 0%
+// .single-post-id14{
+// 	.single-post h1.entry-title{
+// 		top:0%;
+// 	}
+// }
+
+
 .single-post{
 	h1.entry-title{
 		position: absolute;
-		top:0;
+		top:10%;
 		background-color: $green;
 		margin-top:2rem;
 		font-size:2.0rem;
@@ -55,20 +64,35 @@
 	}
 }
 
-h2.entry-title{
+.blog{
+		.hfeed.site{
+			.site-content{
+				.content-area{
+					.site-main{
+						.post{
+							.entry-header{
+								h2.entry-title{
+							
+									position: absolute;
+									top:0;
+									background-color: $green;
+									margin-top:2rem;
+									font-size:2.0rem;
+									max-width:75%;
+								}
 
-	position: absolute;
-	top:0;
-	background-color: $green;
-	margin-top:2rem;
-	font-size:2.0rem;
-	max-width:75%;
-	
-		a{
-			color:#fff;
-			text-decoration:none;
+								a{
+									color:#fff;
+									text-decoration:none;
+								}
+						}
+					}
+				}
+			}
 		}
-}
+	}
+}	
+
 
 .entry-meta{
 	position: absolute;
@@ -121,7 +145,7 @@ h2.entry-title{
 }
 
 .post-14{
-	padding-top:5%;
+	padding-top:15%;
 }
 
 //front-page
@@ -132,13 +156,13 @@ h2.entry-title{
 		margin-right:0;
 		width:100%;
 		.content-area{
-			background:url("../../images/home-hero.jpg");
 			width:100vw;
 			height:100vh;
-			background-size:cover,cover;
+			padding-right:0;
 		}
 		.widget-area{
 			display:none;
 		}
 	}
 }
+
