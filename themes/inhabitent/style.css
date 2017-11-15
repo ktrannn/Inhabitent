@@ -426,21 +426,29 @@ a {
   a:hover, a:active {
     outline: 0; }
 
-/*header logo*/
-/* Menus */
-.main-navigation {
+.hfeed .site-header {
   width: 100%;
+  position: fixed;
+  padding-top: 1rem;
+  border-bottom: solid #EEE 1px;
+  background-color: #fff;
+  z-index: 3; }
+  .hfeed .site-header .header-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+  .hfeed .site-header .site-branding a img {
+    height: 35px; }
+
+.main-navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  border-bottom: #eee solid 1px;
-  padding-top: 1rem; }
-  .main-navigation a img {
-    height: 50px;
-    width: 50px; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
   .main-navigation ul {
     display: none;
     list-style: none;
