@@ -60,7 +60,9 @@ function inhabitent_dynamic_css(){
 
     $hero_css = ".page-template-about .entry-header {
       background:
+        
         url({$image}) no-repeat center bottom;
+        linear-gradient( to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100% );
         background-size:cover,cover;
     }";
     

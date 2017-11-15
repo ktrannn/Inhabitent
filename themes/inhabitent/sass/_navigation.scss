@@ -46,17 +46,25 @@ a {
 .main-navigation {
 	width: 100%;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
 	border-bottom: #eee solid 1px;
 	padding-top:1rem;
-	padding-bottom:1rem;
+
+	a img{
+		height:50px;
+		width:50px;
+	}
 
 	ul {
 		display: none;
 		list-style: none;
 		margin: 0;
 		padding-left: 0;
-		
+		li{
+			a {
+				color:$green;
+			}
+		}
 
 		ul {
 			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
