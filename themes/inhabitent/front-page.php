@@ -17,11 +17,7 @@ get_header(); ?>
 					<h1 class="page-title screen-reader-text"><?php single_post_title();  ?></h1>
 				</header>
 			<?php endif; ?>
-			<div>
-				<img src="<?php echo get_template_directory_uri(); ?>/images/home-hero.jpg" alt="Inhabitent Logo"/>
-			</div>	
-
-
+			<div class="hero-banner"></div>	
 			<section class="product-info container">
             <h2>Shop Stuff</h2>
             <?php

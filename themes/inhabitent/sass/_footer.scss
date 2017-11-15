@@ -2,6 +2,11 @@
 	background:url("../../images/dark-wood.png");
 }
 
+
+// <img src="<?php echo get_template_directory_uri(); ?>/images/dark-wood.png" alt="Inhabitent Logo"/>
+
+
+
 .footer-info-des{
   display:flex;
 	justify-content: space-around;
