@@ -696,8 +696,13 @@ a {
 .bypostauthor {
   display: block; }
 
-.post-14 {
+.blog .post-14 {
   padding-top: 15%; }
+
+.single-post .post-14 {
+  padding-top: 15%; }
+  .single-post .post-14 .entry-header .entry-title {
+    top: 0; }
 
 /*--------------------------------------------------------------
 # Media
