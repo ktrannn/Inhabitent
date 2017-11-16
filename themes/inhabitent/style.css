@@ -699,17 +699,6 @@ a {
 .post-14 {
   padding-top: 15%; }
 
-.page-id-60 .site-content {
-  margin-left: 0;
-  margin-right: 0;
-  width: 100%; }
-  .page-id-60 .site-content .content-area {
-    width: 100vw;
-    height: 100vh;
-    padding-right: 0; }
-  .page-id-60 .site-content .widget-area {
-    display: none; }
-
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -774,15 +763,22 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
-.page-id-60 .hfeed .site-content .content-area .site-main .hero-banner {
-  background: url("../../images/home-hero.jpg");
-  width: 100vw;
-  height: 100vw;
-  background-size: cover,cover; }
-
-.page-id-60 .hfeed .site-content .content-area .site-main .journal-entries .entry-title {
-  position: relative;
-  max-width: 50%; }
+.home .hfeed .site-content {
+  margin-left: 0;
+  margin-right: 0; }
+  .home .hfeed .site-content .content-area .site-main .hero-banner {
+    background: url("../../images/home-hero.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover,cover; }
+  .home .hfeed .site-content .content-area .site-main .journal-entries {
+    width: 1120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
 
 .site-footer {
   background: url("../../images/dark-wood.png"); }
