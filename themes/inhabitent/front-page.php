@@ -66,7 +66,9 @@ get_header(); ?>
 					<?php the_post_thumbnail( 'medium' ); ?>
 					<div class="journal-info">
 					<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );?>
+					<div class="journal-date">
 					<?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?>
+				 </div>
 					</div>
 					</article>
 
