@@ -21,9 +21,7 @@
 
 
 .home{
-	.hfeed{
-		.site-content{
-      
+
 			.content-area{
         width: 100%;
         padding-right:0;
@@ -71,8 +69,10 @@
 			  	}	
 				}
 			}
-		}
-	}
+		.product-type-blocks{
+      display:flex;
+      justify-content: space-around;
+    }
 }	
 
 /*Product Page */
