@@ -54,7 +54,7 @@
       
       
       img{
-        height:350px;
+        height:250px;
         width:360px;
         border-bottom:5px solid $lightgrey;
       }
@@ -66,18 +66,7 @@
   align-items: flex-start;
   width:300px;
   padding:.75rem;
-    .read-more-button{
-      position: relative;
-      
-      input[type="button"]{
-        background-color:$main;
-        border-color:black;
-        border-radius:0;
-        height: 40px;
-        width: 140px;
-        text-transform: uppercase;
-      }  
-    }
+
     .entry-title{
       font-size: 20px;
       padding-top: 0;
@@ -122,6 +111,17 @@
   }
 }}
 
+
+.read-more{
+  color:black;
+  text-transform: uppercase;
+  border:1px solid black;
+  text-decoration:none;
+  padding: .75rem 1.5rem;
+}
+a:visited{
+  color:black;
+}
 /*Product Page */
 
 .social-buttons{

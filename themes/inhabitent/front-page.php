@@ -54,20 +54,18 @@ get_header(); ?>
 			<?php /* Start the Loop */ ?>
 			<h2>inhabitant journal</h2>
 			<?php
-			$args = array( 'numberposts' => '3', 'order' => 'ASC');
+			$args = array( 'numberposts' => '3', 'order' => 'DESC');
 			$product_posts = get_posts( $args );
 			$thumbnail = array( 'large' );?>
 
 				<section class="journal-wrapper">
 					<div class="journal-entries">			
-					<?php foreach ( $product_posts as $post ) : setup_postdata( $post );  ?>
+					<?php foreach ( $product_posts as $post ) : setup_postdata( $post );?>
 					
 					<article class="journal-entry">
 					<?php the_post_thumbnail( 'medium' ); ?>
 						<div class="journal-info">
-							<div class="read-more-button">	
-								<input type=button  onClick="'" value='read entry'>
-							</div>	
+								<a href="<?php the_permalink(); ?>" class="read-more">Read Entry</a>
 							<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );?>
 							<div class="journal-date">
 							<?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?>

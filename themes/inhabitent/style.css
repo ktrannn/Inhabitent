@@ -670,6 +670,9 @@ a {
   text-decoration: none;
   color: #248A83; }
 
+.blog .read-more-wrapper {
+  padding-bottom: 2rem; }
+
 .blog .entry-header h2.entry-title {
   top: 0;
   background-color: #248A83;
@@ -838,7 +841,7 @@ object {
   .home .site-main .journal-entries .journal-entry {
     border: 1px solid #e1e1e1; }
     .home .site-main .journal-entries .journal-entry img {
-      height: 350px;
+      height: 250px;
       width: 360px;
       border-bottom: 5px solid #e1e1e1; }
 
@@ -855,15 +858,6 @@ object {
           align-items: flex-start;
   width: 300px;
   padding: .75rem; }
-  .home .site-main .journal-info .read-more-button {
-    position: relative; }
-    .home .site-main .journal-info .read-more-button input[type="button"] {
-      background-color: #fff;
-      border-color: black;
-      border-radius: 0;
-      height: 40px;
-      width: 140px;
-      text-transform: uppercase; }
   .home .site-main .journal-info .entry-title {
     font-size: 20px;
     padding-top: 0;
@@ -903,6 +897,16 @@ object {
 .home .site-main .product-type-block-wrapper:hover {
   border: 1px solid #d99054;
   border-top-width: 5px; }
+
+.read-more {
+  color: black;
+  text-transform: uppercase;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: .75rem 1.5rem; }
+
+a:visited {
+  color: black; }
 
 /*Product Page */
 .social-buttons {
