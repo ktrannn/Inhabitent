@@ -24,7 +24,7 @@ get_header(); ?>
 			
 			<section class="product-info container max-contain">
 
-						<h2>Shop Stuff</h2>
+						<h2>shop stuff</h2>
 						
             <?php
                $terms = get_terms( array(
@@ -52,7 +52,7 @@ get_header(); ?>
 			
 			<div class="max-contain">
 			<?php /* Start the Loop */ ?>
-			<h2>Inhabitant Journal</h2>
+			<h2>inhabitant journal</h2>
 			<?php
 			$args = array( 'numberposts' => '3', 'order' => 'ASC');
 			$product_posts = get_posts( $args );
@@ -64,18 +64,27 @@ get_header(); ?>
 					
 					<article class="journal-entry">
 					<?php the_post_thumbnail( 'medium' ); ?>
-					<div class="journal-info">
-					<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );?>
-					<div class="journal-date">
-					<?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?>
-				 </div>
+						<div class="journal-info">
+							<div class="read-more-button">	
+								<input type=button  onClick="'" value='read entry'>
+							</div>	
+							<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );?>
+							<div class="journal-date">
+							<?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?>
+	  			 	</div>
 					</div>
 					</article>
 
 					<?php endforeach; wp_reset_postdata(); ?>
 					</div>				
 				</section>
-				</div>
+			</div>
+
+			<div>
+			<h2>latest adventures</h>					
+
+
+			</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
