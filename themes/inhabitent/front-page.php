@@ -18,9 +18,11 @@ get_header(); ?>
 				</header>
 			<?php endif; ?>
 
-			<div class="hero-banner"></div>	
-
-			<section class="product-info container">
+			<div class="hero-banner">
+				<img src=<?php echo get_template_directory_uri() . "/images/logos/inhabitent-logo-full.svg" ?> >
+			</div>	
+			
+			<section class="product-info container max-contain">
 
 						<h2>Shop Stuff</h2>
 						
@@ -47,28 +49,31 @@ get_header(); ?>
                
             <?php endif; ?>
       </section>
-
-			<?php /* Start the Loop */ ?>
 			
+			<div class="max-contain">
+			<?php /* Start the Loop */ ?>
+			<h2>Inhabitant Journal</h2>
 			<?php
 			$args = array( 'numberposts' => '3', 'order' => 'ASC');
 			$product_posts = get_posts( $args );
 			$thumbnail = array( 'large' );?>
 
-				<section class="journal-entries">
-
+				<section class="journal-wrapper">
+					<div class="journal-entries">			
 					<?php foreach ( $product_posts as $post ) : setup_postdata( $post );  ?>
 					
 					<article class="journal-entry">
 					<?php the_post_thumbnail( 'medium' ); ?>
+					<div class="journal-info">
 					<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );?>
 					<?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?>
+					</div>
 					</article>
 
 					<?php endforeach; wp_reset_postdata(); ?>
-
+					</div>				
 				</section>
-
+				</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

@@ -6,13 +6,40 @@
 
 .site-content{
 	display:flex;
-	width:1120px;
 	@include center();
 }
 
 .content-area{
 	width:75%;
 	padding-right:5%;
+}
+
+
+.archive{
+	.entry-title{
+		position: absolute;
+    top: 0;
+    background-color: #248a83;
+    margin-top: 2rem;
+    font-size: 2rem;
+		max-width: 75%;
+		padding-left:1rem;
+		padding-right:1rem;	
+	
+		
+		a{
+			color:$main;
+			text-decoration: none;
+		}
+	}
+	
+	
+}
+
+.page,.single,.blog,.archive{
+	.content-area{
+		padding-left:5%;
+	}
 }
 
 .sticky {
@@ -26,12 +53,7 @@
 	}
 }
 
-//single post for van camping contest have to change top to 0%
-// .single-post-id14{
-// 	.single-post h1.entry-title{
-// 		top:0%;
-// 	}
-// }
+
 
 
 .single-post{
@@ -65,41 +87,34 @@
 }
 
 .blog{
-		.hfeed.site{
-			.site-content{
-				.content-area{
-					.site-main{
-						.post{
-							.entry-header{
-								h2.entry-title{
-							
-									position: absolute;
-									top:0;
-									background-color: $green;
-									margin-top:2rem;
-									font-size:2.0rem;
-									max-width:75%;
-								}
-
-								a{
-									color:#fff;
-									text-decoration:none;
-								}
-						}
-					}
-				}
-			}
+	.entry-header{
+		h2.entry-title{
+	
+			top:0;
+			background-color: $green;
+			margin-top:2rem;
+			font-size:2.0rem;
+			max-width:75%;
+			padding-left:1rem;
+			padding-right:1rem;	
+			position: absolute;
 		}
-	}
-}	
 
+		a{
+			color:#fff;
+			text-decoration:none;
+		}
+}
+}	
+	
 
 .entry-meta{
 	position: absolute;
 	right: 0;
-	bottom: 5%;
+	bottom: 1%;
 	background-color:$green;
 	color:$main;
+	padding:0.5rem;
 	
 }
 
@@ -153,10 +168,10 @@
 .single-post{
 	.post-14{
 		padding-top:15%;
-		.entry-header{
 			.entry-title{
 				top:0;
 			}
-		}
 	}
 }
+
+

@@ -22,6 +22,10 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<?php get_template_part( 'template-parts/content' ); ?>
+				
+				<div class="social-buttons">
+					<button type="submit">READ MORE →</button>
+				</div>
 
 			<?php endwhile; ?>
 

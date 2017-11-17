@@ -581,6 +581,7 @@ a {
     max-width: 100%; }
 
 .widget-area {
+  padding-top: 5rem;
   width: 25%;
   padding-left: 5%;
   border-left: #eee solid 1px; }
@@ -609,13 +610,28 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 1120px;
   margin-left: auto;
   margin-right: auto; }
 
 .content-area {
   width: 75%;
   padding-right: 5%; }
+
+.archive .entry-title {
+  position: absolute;
+  top: 0;
+  background-color: #248a83;
+  margin-top: 2rem;
+  font-size: 2rem;
+  max-width: 75%;
+  padding-left: 1rem;
+  padding-right: 1rem; }
+  .archive .entry-title a {
+    color: #fff;
+    text-decoration: none; }
+
+.page .content-area, .single .content-area, .blog .content-area, .archive .content-area {
+  padding-left: 5%; }
 
 .sticky {
   display: block; }
@@ -646,24 +662,27 @@ a {
   text-decoration: none;
   color: #248A83; }
 
-.blog .hfeed.site .site-content .content-area .site-main .post .entry-header h2.entry-title {
-  position: absolute;
+.blog .entry-header h2.entry-title {
   top: 0;
   background-color: #248A83;
   margin-top: 2rem;
   font-size: 2.0rem;
-  max-width: 75%; }
+  max-width: 75%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: absolute; }
 
-.blog .hfeed.site .site-content .content-area .site-main .post .entry-header a {
+.blog .entry-header a {
   color: #fff;
   text-decoration: none; }
 
 .entry-meta {
   position: absolute;
   right: 0;
-  bottom: 5%;
+  bottom: 1%;
   background-color: #248A83;
-  color: #fff; }
+  color: #fff;
+  padding: 0.5rem; }
 
 .hentry {
   margin: 0 0 1.5rem; }
@@ -701,7 +720,7 @@ a {
 
 .single-post .post-14 {
   padding-top: 15%; }
-  .single-post .post-14 .entry-header .entry-title {
+  .single-post .post-14 .entry-title {
     top: 0; }
 
 /*--------------------------------------------------------------
@@ -767,23 +786,75 @@ object {
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
+.max-contain {
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto; }
+
 /* Front page */
-.home .hfeed .site-content {
-  margin-left: 0;
-  margin-right: 0; }
+.home .content-area, .page-template-about .content-area {
+  padding-left: 0; }
+
+.home .hfeed .site-content .content-area {
+  width: 100%;
+  padding-right: 0; }
   .home .hfeed .site-content .content-area .site-main .hero-banner {
     background: url("../../images/home-hero.jpg");
-    width: 100vw;
+    width: 100%;
     height: 100vh;
-    background-size: cover,cover; }
-  .home .hfeed .site-content .content-area .site-main .journal-entries {
-    width: 1120px;
+    background-size: cover,cover;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
+  .home .hfeed .site-content .content-area .site-main h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem; }
+  .home .hfeed .site-content .content-area .site-main .journal-wrapper .journal-entries {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    .home .hfeed .site-content .content-area .site-main .journal-wrapper .journal-entries .journal-entry {
+      -ms-flex-preferred-size: 1;
+          flex-basis: 1; }
+      .home .hfeed .site-content .content-area .site-main .journal-wrapper .journal-entries .journal-entry img {
+        height: 250px; }
+      .home .hfeed .site-content .content-area .site-main .journal-wrapper .journal-entries .journal-entry .journal-info {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        width: 300px; }
+        .home .hfeed .site-content .content-area .site-main .journal-wrapper .journal-entries .journal-entry .journal-info .entry-title {
+          font-size: 20px;
+          padding-top: 0;
+          padding-bottom: 0; }
+
+/*Product Page */
+.social-buttons {
+  padding-bottom: 3rem; }
+  .social-buttons button[type="submit"] {
+    background-color: #fff;
+    border-color: black;
+    border-radius: 0;
+    height: 40px;
+    width: 140px; }
+    .social-buttons button[type="submit"] :hover {
+      background-color: #248A83; }
+  .social-buttons :before {
+    padding-right: 1rem; }
 
 .site-footer {
   background: url("../../images/dark-wood.png"); }
