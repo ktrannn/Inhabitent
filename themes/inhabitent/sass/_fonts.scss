@@ -1,3 +1,19 @@
 /*--------------------------------------------------------------
 # Embedded Fonts
 --------------------------------------------------------------*/
+@font-face {
+	font-family: "Merriweather";
+	src: url("fonts/Merriweather-Bold.ttf") format("ttf"),
+  url("fonts/Merriweather-Bolditalic.ttf") format("ttf"),
+  url("fonts/Merriweather-Light.ttf") format("ttf"),
+  url("fonts/Merriweather-LightItalic.ttf") format("ttf")
+}
+
+
+@font-face {
+	font-family: "Novecento";
+	src: url("fonts/Novecentosanswide-DemiBold.ttf") format("ttf"),
+		 url("fonts/Novecentosanswide-Normal.ttf") format("ttf"),
+		 
+}
+
