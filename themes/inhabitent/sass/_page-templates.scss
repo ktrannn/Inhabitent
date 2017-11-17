@@ -61,10 +61,16 @@
   align-items: flex-start;
   width:300px;
   border:1px solid $lightgrey;
+  padding:.75rem;
     .entry-title{
       font-size: 20px;
       padding-top: 0;
       padding-bottom: 0;
+      text-align:left;
+      a{
+        color:$green;
+        text-decoration: none;
+      }
     }
   }    
   .product-type-blocks{
