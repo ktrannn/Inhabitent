@@ -35,7 +35,9 @@ a {
 			z-index:3; 
 				.header-container{
 					display: flex;
-					justify-content: space-around;
+					justify-content: space-between;
+					padding-left:5%;
+					padding-right:5%;
 				}
 				.site-branding{
 					a img{

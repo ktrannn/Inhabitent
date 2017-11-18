@@ -20,6 +20,9 @@ get_header(); ?>
 			</header><!-- .page-header -->
 
 			<?php /* Start the Loop */ ?>
+
+			<?php /*query_posts('products_per_page=20'); */?>
+			
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<?php

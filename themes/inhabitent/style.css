@@ -445,8 +445,11 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around; }
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%; }
   .hfeed .site-header .site-branding a img {
     height: 35px; }
 
@@ -734,6 +737,9 @@ a {
   .single-post .post-14 .entry-title {
     top: 0; }
 
+.page-template-default .site-main {
+  padding-top: 10%; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -909,17 +915,29 @@ a:visited {
   color: black; }
 
 /*Product Page */
-.social-buttons {
+.post-type-archive .content-area {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.post-type-archive .site-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.post-type-archive .social-buttons {
   padding-bottom: 3rem; }
-  .social-buttons button[type="submit"] {
+  .post-type-archive .social-buttons button[type="submit"] {
     background-color: #fff;
     border-color: black;
     border-radius: 0;
     height: 40px;
     width: 140px; }
-    .social-buttons button[type="submit"] :hover {
+    .post-type-archive .social-buttons button[type="submit"] :hover {
       background-color: #248A83; }
-  .social-buttons :before {
+  .post-type-archive .social-buttons :before {
     padding-right: 1rem; }
 
 .product-template-default .entry-header img {

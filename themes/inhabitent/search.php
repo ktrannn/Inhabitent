@@ -21,6 +21,8 @@ get_header(); ?>
 
 				<?php get_template_part( 'template-parts/content', 'search' ); ?>
 
+				<a href="<?php the_permalink(); ?>" class="read-more">read more →</a>
+
 			<?php endwhile; ?>
 
 			<?php red_starter_numbered_pagination(); ?>

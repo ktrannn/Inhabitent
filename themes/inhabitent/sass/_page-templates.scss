@@ -122,26 +122,39 @@
 a:visited{
   color:black;
 }
-/*Product Page */
 
-.social-buttons{
-  padding-bottom:3rem;
-    button[type="submit"]{
-    background-color:$main;
-    border-color:black;
-    border-radius:0;
-    height: 40px;
-    width: 140px;
-    
-    :hover{
-      background-color:$green;
+
+
+/*Product Page */
+.post-type-archive{ 
+  .content-area{
+    width:100%;
+    @include center();
+  }
+  .site-main{
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .social-buttons{
+    padding-bottom:3rem;
+      button[type="submit"]{
+      background-color:$main;
+      border-color:black;
+      border-radius:0;
+      height: 40px;
+      width: 140px;
+      
+      :hover{
+        background-color:$green;
+      }
+    }
+    :before{
+      padding-right:1rem;
     }
   }
-  :before{
-    padding-right:1rem;
-  }
-}
-   
+}   
+
+
 
 
 // single product page//
@@ -170,3 +183,6 @@ a:visited{
     display:none;
   }
 }
+
+
+//search bar//

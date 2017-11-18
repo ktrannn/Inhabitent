@@ -80,6 +80,14 @@ get_header(); ?>
 
 			<div>
 			<h2>latest adventures</h>					
+			  <section class="adventures-wrapper">
+					
+
+
+
+
+
+				</section>
 
 
 			</div>
