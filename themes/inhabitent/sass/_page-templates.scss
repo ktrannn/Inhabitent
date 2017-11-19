@@ -344,3 +344,14 @@ a:visited{
     border-bottom:1px solid $lightgrey;
   }
 }
+
+.archive{
+  .page-header{
+    padding-top:2rem;
+    padding-bottom:2rem;
+  }
+  .page-title{
+    border-bottom: 1px solid $lightgrey;
+    padding-bottom: 1rem;
+  }
+}

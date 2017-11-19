@@ -9,7 +9,8 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-
+		<?php	echo "<h2>date_format;</h2>"
+		?>
 		<?php if ( have_posts() ) : ?>
 
 			<header class="page-header">

@@ -1084,6 +1084,14 @@ a:visited {
   font-size: 1.5rem;
   border-bottom: 1px solid #e1e1e1; }
 
+.archive .page-header {
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+
+.archive .page-title {
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 1rem; }
+
 .site-footer {
   background: url("../../images/dark-wood.png"); }
 
