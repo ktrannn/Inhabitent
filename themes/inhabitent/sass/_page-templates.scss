@@ -128,10 +128,23 @@ a:visited{
   .adventure-left-block{
     position:relative;
     flex-basis:50%;
+    
+    img{
+      height: 540px;
+      width: auto;
+      border-right: 20px solid white;
+    }
+    
     .adventure-info{
       position:absolute;
       top:0;
       padding-left:1rem;
+      h3{
+        font-size:2.4rem;
+        text-transform: uppercase;
+        color:$main;
+      }
+
     }
   }
   .adventure-right-block{
@@ -141,41 +154,60 @@ a:visited{
   .beach-adventure{
     position:relative;
     img{
-      height: 250px;
+      height: 270px;
       width: 640px;
+      border-bottom: 8px solid white;
     }
     .adventure-info{
       position: absolute;
       top: 0;
       padding-left: 1rem;
+      h3{
+        font-size:2.4rem;
+        text-transform: uppercase;
+        color:$main;
+      }
     }
   }
   .hiker-adventure{
     position:relative;
+    flex-basis:50%;
+    border-right: 10px solid white;
    
     img{
       width: 320px;
-      height: 170px;
+      height: 262px;
+      
     }
     .adventure-info{
       position: absolute;
       top: 0;
       padding-left: 1rem;
+      h3{
+        font-size:2rem;
+        color:$main;
+      }
     }
   }  
 
 
   .star-adventure{
     position:relative;
+    flex-basis:50%;
 
     img{
       width: 320px;
-      height: 170px;
+      height: 262px;
+      border-left: 10px solid white;
     }
     .adventure-info{
       position: absolute;
       top: 0;
-      padding-left: 1rem;
+      padding-left: 2rem;
+      h3{
+        font-size:2rem;
+        color:$main;
+      }
     }
   }
 

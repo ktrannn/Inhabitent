@@ -922,10 +922,18 @@ a:visited {
     position: relative;
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%; }
+    .adventures-wrapper .adventure-left-block img {
+      height: 540px;
+      width: auto;
+      border-right: 20px solid white; }
     .adventures-wrapper .adventure-left-block .adventure-info {
       position: absolute;
       top: 0;
       padding-left: 1rem; }
+      .adventures-wrapper .adventure-left-block .adventure-info h3 {
+        font-size: 2.4rem;
+        text-transform: uppercase;
+        color: #fff; }
   .adventures-wrapper .adventure-right-block {
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
@@ -937,30 +945,47 @@ a:visited {
     .adventures-wrapper .adventure-right-block .beach-adventure {
       position: relative; }
       .adventures-wrapper .adventure-right-block .beach-adventure img {
-        height: 250px;
-        width: 640px; }
+        height: 270px;
+        width: 640px;
+        border-bottom: 8px solid white; }
       .adventures-wrapper .adventure-right-block .beach-adventure .adventure-info {
         position: absolute;
         top: 0;
         padding-left: 1rem; }
+        .adventures-wrapper .adventure-right-block .beach-adventure .adventure-info h3 {
+          font-size: 2.4rem;
+          text-transform: uppercase;
+          color: #fff; }
     .adventures-wrapper .adventure-right-block .hiker-adventure {
-      position: relative; }
+      position: relative;
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      border-right: 10px solid white; }
       .adventures-wrapper .adventure-right-block .hiker-adventure img {
         width: 320px;
-        height: 170px; }
+        height: 262px; }
       .adventures-wrapper .adventure-right-block .hiker-adventure .adventure-info {
         position: absolute;
         top: 0;
         padding-left: 1rem; }
+        .adventures-wrapper .adventure-right-block .hiker-adventure .adventure-info h3 {
+          font-size: 2rem;
+          color: #fff; }
     .adventures-wrapper .adventure-right-block .star-adventure {
-      position: relative; }
+      position: relative;
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
       .adventures-wrapper .adventure-right-block .star-adventure img {
         width: 320px;
-        height: 170px; }
+        height: 262px;
+        border-left: 10px solid white; }
       .adventures-wrapper .adventure-right-block .star-adventure .adventure-info {
         position: absolute;
         top: 0;
-        padding-left: 1rem; }
+        padding-left: 2rem; }
+        .adventures-wrapper .adventure-right-block .star-adventure .adventure-info h3 {
+          font-size: 2rem;
+          color: #fff; }
 
 /*Product Page */
 .post-type-archive .content-area {

@@ -84,7 +84,7 @@ get_header(); ?>
 					<div class="adventure-left-block">
 						<img src=<?php echo get_template_directory_uri() . "/images/adventure-photos/canoe-girl.jpg" ?>	>		
 						<div class="adventure-info">
-							<h3>getting back in a canoe</h3>		
+							<h3>getting back to nature in a canoe</h3>		
 						</div>
 					</div>			
 					<div class="adventure-right-block">
@@ -98,7 +98,7 @@ get_header(); ?>
 						<div class="hiker-adventure">
 							<img src=<?php echo get_template_directory_uri() . "/images/adventure-photos/mountain-hikers.jpg" ?>	>		  	
 							<div class="adventure-info">
-								<h3>Hikers taking in the view on a mountain taking in the view at the big mountain</h3>		
+								<h3>taking in the view at big mountain</h3>		
 							</div>
 						</div>	
 
