@@ -932,7 +932,6 @@ a:visited {
       padding-left: 1rem; }
       .adventures-wrapper .adventure-left-block .adventure-info h3 {
         font-size: 2.4rem;
-        text-transform: uppercase;
         color: #fff; }
   .adventures-wrapper .adventure-right-block {
     -ms-flex-preferred-size: 50%;
@@ -954,7 +953,6 @@ a:visited {
         padding-left: 1rem; }
         .adventures-wrapper .adventure-right-block .beach-adventure .adventure-info h3 {
           font-size: 2.4rem;
-          text-transform: uppercase;
           color: #fff; }
     .adventures-wrapper .adventure-right-block .hiker-adventure {
       position: relative;
@@ -1026,6 +1024,66 @@ a:visited {
 .tax-product-type .widget-area {
   display: none; }
 
+.search-results .type-product {
+  padding-top: 3rem; }
+
+.search-results .content-area {
+  padding-left: 5%; }
+
+.search-results h2 a {
+  color: #248A83;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2rem; }
+
+.search-results .search-pagination {
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+
+.search-results .page-numbers {
+  background-color: #248a83;
+  color: #fff;
+  display: inline-block;
+  line-height: 1;
+  padding: .5rem .75rem;
+  margin-right: .25rem;
+  text-decoration: none; }
+
+.search-results .category-recipes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.search-results .entry-meta {
+  position: absolute;
+  left: -7px;
+  bottom: -33%;
+  background-color: transparent;
+  color: black;
+  padding: .5rem; }
+
+.search-results .post-5 .entry-header {
+  display: block;
+  height: auto;
+  text-align: left; }
+
+.search-results .post-5 .entry-summary {
+  display: none; }
+
+.search-results .category-how-tos .entry-meta {
+  bottom: -85%; }
+
+.search-results .category-how-tos .entry-summary {
+  padding-top: 1rem; }
+
+.search-results .page-header {
+  padding-top: 3rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #e1e1e1; }
+
 .site-footer {
   background: url("../../images/dark-wood.png"); }
 
@@ -1070,17 +1128,17 @@ a:visited {
   .page-id-5 div#content.site-content div#secondary.widget-area {
     display: none; }
 
-#post-5 {
+.post-5 {
   width: 100vw; }
-  #post-5 .entry-content {
+  .post-5 .entry-content {
     width: 850px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 1rem; }
-    #post-5 .entry-content h2 {
+    .post-5 .entry-content h2 {
       text-align: center;
       font-size: 2.5rem; }
-  #post-5 .entry-header {
+  .post-5 .entry-header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1093,7 +1151,7 @@ a:visited {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-    #post-5 .entry-header .entry-title {
+    .post-5 .entry-header .entry-title {
       font-size: 3rem;
       margin-left: auto;
       margin-right: auto;

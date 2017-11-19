@@ -141,7 +141,6 @@ a:visited{
       padding-left:1rem;
       h3{
         font-size:2.4rem;
-        text-transform: uppercase;
         color:$main;
       }
 
@@ -164,7 +163,6 @@ a:visited{
       padding-left: 1rem;
       h3{
         font-size:2.4rem;
-        text-transform: uppercase;
         color:$main;
       }
     }
@@ -276,4 +274,73 @@ a:visited{
 }
 
 
-//search bar//
+//search//
+.search-results{
+  .type-product{
+    padding-top:3rem;
+  }
+
+  .content-area{
+    padding-left:5%;
+  }
+
+  h2 a{
+  color:$green;
+  text-decoration: none;    
+  text-transform: uppercase;
+  font-size:2rem;
+  }
+
+  .search-pagination{
+    padding-top:3rem;
+    padding-bottom:3rem;
+  }
+  .page-numbers{
+    background-color: #248a83;
+    color: #fff;
+    display: inline-block;
+    line-height: 1;
+    padding: .5rem .75rem;
+    margin-right: .25rem;
+    text-decoration: none;
+  }
+
+  .category-recipes{
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .entry-meta{
+    position: absolute;
+    left: -7px;
+    bottom: -33%;
+    background-color:transparent;
+    color: black;
+    padding: .5rem;
+  }
+
+  .post-5{
+    .entry-header{
+      display:block;
+      height:auto;
+      text-align:left;
+    }
+    .entry-summary{
+      display:none;
+    }
+  }
+
+  .category-how-tos{
+    .entry-meta{
+      bottom:-85%;
+    }
+    .entry-summary{
+      padding-top:1rem;
+    }
+  }
+  .page-header{
+    padding-top:3rem;
+    text-transform: uppercase;
+    font-size:1.5rem;
+    border-bottom:1px solid $lightgrey;
+  }
+}

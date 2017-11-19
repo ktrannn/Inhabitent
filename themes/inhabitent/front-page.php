@@ -84,28 +84,28 @@ get_header(); ?>
 					<div class="adventure-left-block">
 						<img src=<?php echo get_template_directory_uri() . "/images/adventure-photos/canoe-girl.jpg" ?>	>		
 						<div class="adventure-info">
-							<h3>getting back to nature in a canoe</h3>		
+							<h3>Getting Back to Nature in a Canoe</h3>		
 						</div>
 					</div>			
 					<div class="adventure-right-block">
 						<div class="beach-adventure">
 							<img src=<?php echo get_template_directory_uri() . "/images/adventure-photos/beach-bonfire.jpg" ?>	>		  	
 							<div class="adventure-info">
-								<h3>a night with friends at the beach</h3>		
+								<h3>A Night with Friends at the Beach</h3>		
 							</div>
 						</div>			
 
 						<div class="hiker-adventure">
 							<img src=<?php echo get_template_directory_uri() . "/images/adventure-photos/mountain-hikers.jpg" ?>	>		  	
 							<div class="adventure-info">
-								<h3>taking in the view at big mountain</h3>		
+								<h3>Taking in the View at Big Mountain</h3>		
 							</div>
 						</div>	
 
 						<div class="star-adventure">
 							<img src=<?php echo get_template_directory_uri() . "/images/adventure-photos/night-sky.jpg" ?>	>		  	
 							<div class="adventure-info">
-								<h3>star-gazing at the night sky</h3>		
+								<h3>Star-Gazing at the Night Sky</h3>		
 							</div>
 						</div>	
 
