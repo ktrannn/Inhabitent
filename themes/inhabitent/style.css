@@ -914,6 +914,54 @@ object {
 a:visited {
   color: black; }
 
+.adventures-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .adventures-wrapper .adventure-left-block {
+    position: relative;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%; }
+    .adventures-wrapper .adventure-left-block .adventure-info {
+      position: absolute;
+      top: 0;
+      padding-left: 1rem; }
+  .adventures-wrapper .adventure-right-block {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    .adventures-wrapper .adventure-right-block .beach-adventure {
+      position: relative; }
+      .adventures-wrapper .adventure-right-block .beach-adventure img {
+        height: 250px;
+        width: 640px; }
+      .adventures-wrapper .adventure-right-block .beach-adventure .adventure-info {
+        position: absolute;
+        top: 0;
+        padding-left: 1rem; }
+    .adventures-wrapper .adventure-right-block .hiker-adventure {
+      position: relative; }
+      .adventures-wrapper .adventure-right-block .hiker-adventure img {
+        width: 320px;
+        height: 170px; }
+      .adventures-wrapper .adventure-right-block .hiker-adventure .adventure-info {
+        position: absolute;
+        top: 0;
+        padding-left: 1rem; }
+    .adventures-wrapper .adventure-right-block .star-adventure {
+      position: relative; }
+      .adventures-wrapper .adventure-right-block .star-adventure img {
+        width: 320px;
+        height: 170px; }
+      .adventures-wrapper .adventure-right-block .star-adventure .adventure-info {
+        position: absolute;
+        top: 0;
+        padding-left: 1rem; }
+
 /*Product Page */
 .post-type-archive .content-area {
   width: 100%;

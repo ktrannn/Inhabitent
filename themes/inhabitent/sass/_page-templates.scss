@@ -123,6 +123,65 @@ a:visited{
   color:black;
 }
 
+.adventures-wrapper{
+  display:flex;
+  .adventure-left-block{
+    position:relative;
+    flex-basis:50%;
+    .adventure-info{
+      position:absolute;
+      top:0;
+      padding-left:1rem;
+    }
+  }
+  .adventure-right-block{
+    flex-basis:50%;
+    display:flex;
+    flex-wrap:wrap;
+  .beach-adventure{
+    position:relative;
+    img{
+      height: 250px;
+      width: 640px;
+    }
+    .adventure-info{
+      position: absolute;
+      top: 0;
+      padding-left: 1rem;
+    }
+  }
+  .hiker-adventure{
+    position:relative;
+   
+    img{
+      width: 320px;
+      height: 170px;
+    }
+    .adventure-info{
+      position: absolute;
+      top: 0;
+      padding-left: 1rem;
+    }
+  }  
+
+
+  .star-adventure{
+    position:relative;
+
+    img{
+      width: 320px;
+      height: 170px;
+    }
+    .adventure-info{
+      position: absolute;
+      top: 0;
+      padding-left: 1rem;
+    }
+  }
+
+
+  }
+}
 
 
 /*Product Page */
