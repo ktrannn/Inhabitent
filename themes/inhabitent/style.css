@@ -1044,11 +1044,22 @@ a:visited {
 .post-type-archive .item-grid {
   -ms-flex-preferred-size: 22.5%;
       flex-basis: 22.5%;
-  border: 1px solid #e1e1e1; }
+  border: 1px solid #e1e1e1;
+  margin-bottom: 1rem;
+  height: 310px; }
 
 .post-type-archive .type-product a img {
   border-bottom: 5px solid #e1e1e1;
   height: 250px; }
+
+.post-type-archive .page-header {
+  width: 100%;
+  text-align: center; }
+  .post-type-archive .page-header .page-title {
+    border-bottom: none; }
+
+.post-type-archive .content-area {
+  padding-bottom: 5rem; }
 
 .tax-product-type .content-area {
   width: 100%; }
@@ -1072,11 +1083,24 @@ a:visited {
   -ms-flex-preferred-size: 23%;
       flex-basis: 23%;
   max-width: 23%;
-  border: 1px solid #e1e1e1; }
+  border: 1px solid #e1e1e1;
+  height: 310px; }
 
 .tax-product-type a img {
   border-bottom: 5px solid #e1e1e1;
   height: 250px; }
+
+.tax-product-type .content-area {
+  padding-bottom: 5rem; }
+
+.name-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  white-space: nowrap; }
 
 .product-template-default .entry-title {
   color: #d99054;
