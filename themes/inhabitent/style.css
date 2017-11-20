@@ -613,6 +613,9 @@ a {
   text-decoration: none;
   color: #248A83; }
 
+.textwidget .contact-meta .fa {
+  padding-right: 0.5rem; }
+
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
@@ -736,6 +739,9 @@ a {
   padding-top: 15%; }
   .single-post .post-14 .entry-title {
     top: 0; }
+
+.single-format-standard .social-buttons .fa:before {
+  padding-right: 0.5rem; }
 
 .page-id-7 .site-main {
   padding-top: 10%; }
