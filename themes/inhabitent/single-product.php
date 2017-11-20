@@ -35,10 +35,10 @@ get_header(); ?>
                   'after'  => '</div>',
                 ) );
               ?>
-            <div class="social-buttons">
-              <button type="submit"<i class="fa fa-facebook" aria-hidden="true"></i>LIKE</button>
-              <button type="submit"<i class="fa fa-twitter" aria-hidden="true"></i>TWEET</button>
-              <button type="submit"<i class="fa fa-pinterest" aria-hidden="true"></i>PIN</button>
+            <div>
+              <button type="submit" class="single-product-buttons"><i class="fa fa-facebook" aria-hidden="true"></i>LIKE</button>
+              <button type="submit" class="single-product-buttons"><i class="fa fa-twitter" aria-hidden="true"></i>TWEET</button>
+              <button type="submit" class="single-product-buttons"><i class="fa fa-pinterest" aria-hidden="true"></i>PIN</button>
             </div>
             </div><!-- .entry-content -->
       </div> 

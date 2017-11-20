@@ -264,8 +264,25 @@ a:visited{
 // single product page//
 .product-template-default{
 
+  .entry-title{
+    color:$orange;
+    text-transform: uppercase;
+  }
 
-
+  .content-area{
+    width:100%;
+  }
+  .type-product{
+    display:flex;
+    padding-top:8rem;
+    div img{
+      flex-basis:50%;
+    }
+  }
+  .single-product-wrapper{
+    padding-left:3rem;
+    flex-basis:50%;
+  }
 
   .entry-header img {
   max-width: 500px;
@@ -277,6 +294,21 @@ a:visited{
   .widget-area{
     display:none;
   }
+
+  .single-product-buttons{
+    color: #000;
+    text-transform: uppercase;
+    border: 1px solid #000;
+    text-decoration: none;
+    padding: .75rem 1.5rem;
+    background:$main;
+    border-radius:0;
+    font-size:1rem;
+    .fa{
+      padding-right:1rem;
+    }
+  }
+  
 }
 
 
