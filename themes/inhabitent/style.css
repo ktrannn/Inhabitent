@@ -1036,7 +1036,8 @@ a:visited {
   text-transform: uppercase; }
 
 .product-template-default .content-area {
-  width: 100%; }
+  width: 100%;
+  padding-bottom: 6rem; }
 
 .product-template-default .type-product {
   display: -webkit-box;
