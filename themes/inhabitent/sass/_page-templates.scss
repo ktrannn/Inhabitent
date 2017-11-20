@@ -265,8 +265,14 @@ a:visited{
 
   .item-grid{
     flex-basis:22.5%;
+    border:1px solid $lightgrey;
   }
-
+  .type-product{
+      a img{
+      border-bottom:5px solid $lightgrey;
+      height:250px;
+    }
+  }  
 
 }   
 // taxonomy product page//
@@ -290,6 +296,11 @@ a:visited{
   .item-grid{
     flex-basis:23%;
     max-width:23%;
+    border:1px solid $lightgrey;
+  }
+  a img{
+    border-bottom:5px solid $lightgrey;
+    height:250px;
   }
 }
 

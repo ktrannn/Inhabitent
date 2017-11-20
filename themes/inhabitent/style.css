@@ -1043,7 +1043,12 @@ a:visited {
 
 .post-type-archive .item-grid {
   -ms-flex-preferred-size: 22.5%;
-      flex-basis: 22.5%; }
+      flex-basis: 22.5%;
+  border: 1px solid #e1e1e1; }
+
+.post-type-archive .type-product a img {
+  border-bottom: 5px solid #e1e1e1;
+  height: 250px; }
 
 .tax-product-type .content-area {
   width: 100%; }
@@ -1066,7 +1071,12 @@ a:visited {
 .tax-product-type .item-grid {
   -ms-flex-preferred-size: 23%;
       flex-basis: 23%;
-  max-width: 23%; }
+  max-width: 23%;
+  border: 1px solid #e1e1e1; }
+
+.tax-product-type a img {
+  border-bottom: 5px solid #e1e1e1;
+  height: 250px; }
 
 .product-template-default .entry-title {
   color: #d99054;
