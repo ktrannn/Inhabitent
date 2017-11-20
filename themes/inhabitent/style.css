@@ -818,6 +818,20 @@ object {
 .home .content-area, .page-template-about .content-area {
   padding-left: 0; }
 
+.home .advbtn {
+  background: transparent;
+  color: #fff;
+  border: 1px solid white; }
+
+.home .advreadmore {
+  padding-top: 1rem;
+  padding-bottom: 3rem; }
+  .home .advreadmore .moreadventures {
+    background: #248A83;
+    padding-bottom: 1rem;
+    border: none;
+    color: #fff; }
+
 .home h2 {
   text-transform: uppercase; }
 
@@ -1090,13 +1104,16 @@ a:visited {
   font-size: 1.5rem;
   border-bottom: 1px solid #e1e1e1; }
 
-.archive .page-header {
-  padding-top: 2rem;
+.archive .p-bottom {
   padding-bottom: 2rem; }
+
+.archive .page-header {
+  padding-top: 6rem; }
 
 .archive .page-title {
   border-bottom: 1px solid #e1e1e1;
-  padding-bottom: 1rem; }
+  padding-bottom: 1rem;
+  text-transform: uppercase; }
 
 .site-footer {
   background: url("../../images/dark-wood.png"); }

@@ -9,8 +9,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-		<?php	echo "<h2>date_format;</h2>"
-		?>
+	
 		<?php if ( have_posts() ) : ?>
 
 			<header class="page-header">
@@ -26,6 +25,7 @@ get_header(); ?>
 				<?php
 					get_template_part( 'template-parts/content' );
 				?>
+				<p class="p-bottom"><a href="<?php the_permalink(); ?>" class="read-more">Read More →</a></p>
 
 			<?php endwhile; ?>
 

@@ -84,34 +84,38 @@ get_header(); ?>
 					<div class="adventure-left-block">
 						<img src=<?php echo get_template_directory_uri() . "/images/adventure-photos/canoe-girl.jpg" ?>	>		
 						<div class="adventure-info">
-							<h3>Getting Back to Nature in a Canoe</h3>		
+							<h3>Getting Back to Nature in a Canoe</h3>
+							<a href="<?php the_permalink(); ?>" class="advbtn read-more">Read More</a>	
 						</div>
 					</div>			
 					<div class="adventure-right-block">
 						<div class="beach-adventure">
 							<img src=<?php echo get_template_directory_uri() . "/images/adventure-photos/beach-bonfire.jpg" ?>	>		  	
 							<div class="adventure-info">
-								<h3>A Night with Friends at the Beach</h3>		
+								<h3>A Night with Friends at the Beach</h3>	
+								<a href="<?php the_permalink(); ?>" class="advbtn read-more">Read More</a>		
 							</div>
 						</div>			
 
 						<div class="hiker-adventure">
 							<img src=<?php echo get_template_directory_uri() . "/images/adventure-photos/mountain-hikers.jpg" ?>	>		  	
 							<div class="adventure-info">
-								<h3>Taking in the View at Big Mountain</h3>		
+								<h3>Taking in the View at Big Mountain</h3>	
+								<a href="<?php the_permalink(); ?>" class="advbtn read-more">Read More</a>		
 							</div>
 						</div>	
 
 						<div class="star-adventure">
 							<img src=<?php echo get_template_directory_uri() . "/images/adventure-photos/night-sky.jpg" ?>	>		  	
 							<div class="adventure-info">
-								<h3>Star-Gazing at the Night Sky</h3>		
+								<h3>Star-Gazing at the Night Sky</h3>	
+								<a href="<?php the_permalink(); ?>" class="advbtn read-more">Read More</a>		
 							</div>
 						</div>	
 
 					</div>			
 				</section>
-
+				<p class="advreadmore"><a href="<?php the_permalink(); ?>" class="moreadventures read-more">More Adventures</a><p>
 
 			</div>
 		</main><!-- #main -->

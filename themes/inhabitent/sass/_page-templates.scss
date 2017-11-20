@@ -21,6 +21,21 @@
 
 
 .home{
+  .advbtn{
+    background: transparent;
+    color: #fff;
+    border: 1px solid white;
+  }
+  .advreadmore{
+    padding-top:1rem;
+    padding-bottom:3rem;
+    .moreadventures{
+      background:$green;
+      padding-bottom:1rem;
+      border:none;
+      color:$main;
+    }
+  }  
   h2{
     text-transform: uppercase;
   }
@@ -346,12 +361,16 @@ a:visited{
 }
 
 .archive{
-  .page-header{
-    padding-top:2rem;
+  .p-bottom{
     padding-bottom:2rem;
+  }
+  .page-header{
+    padding-top:6rem;
+    
   }
   .page-title{
     border-bottom: 1px solid $lightgrey;
     padding-bottom: 1rem;
+    text-transform: uppercase;
   }
 }
