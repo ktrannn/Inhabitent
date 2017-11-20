@@ -439,7 +439,7 @@ a {
   position: fixed;
   padding-top: 1rem;
   border-bottom: solid #EEE 1px;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.85);
   z-index: 3; }
   .hfeed .site-header .header-container {
     display: -webkit-box;
