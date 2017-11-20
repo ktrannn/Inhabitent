@@ -21,6 +21,8 @@ get_header(); ?>
       
 
               <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+              <?php $meta_print_value=get_post_meta(get_the_ID(),'price',true);
+							echo($meta_print_value);?>
 
               <div class="entry-meta">
                 <?php red_starter_posted_on(); ?> / <?php red_starter_comment_count(); ?> / <?php red_starter_posted_by(); ?>
