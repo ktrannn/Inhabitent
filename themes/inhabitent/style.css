@@ -1175,6 +1175,9 @@ a:visited {
 .error404 .widget_archive {
   padding-bottom: 3rem; }
 
+.error404 .archive-dropdown {
+  font-size: 1.15rem; }
+
 .site-footer {
   background: url("../../images/dark-wood.png"); }
 
