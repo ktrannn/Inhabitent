@@ -320,6 +320,14 @@ a:visited{
     display:none;
   }
 }
+//search form
+.search-form{
+  fieldset{
+    border:0;
+  }
+}
+
+
 
 
 //search//
@@ -405,5 +413,42 @@ a:visited{
     border-bottom: 1px solid $lightgrey;
     padding-bottom: 1rem;
     text-transform: uppercase;
+  }
+}
+
+
+// 404 PAGE//
+.error404{
+  .content-area{
+    padding-left: 5%;
+    padding-top: 6rem;
+  }
+
+  .widget_recent_entries{
+    ul{
+      list-style: none;
+      margin:0;
+      padding:0;
+      li a{
+        text-decoration: none;
+        color:$green;
+      }
+    }
+  }
+
+  .widget_categories{
+    ul{
+      list-style: none;
+      margin:0;
+      padding:0;
+      li a{
+        text-decoration: none;
+        color:$green;
+      }
+    }
+  }
+
+  .widget_archive{
+    padding-bottom:3rem;
   }
 }
