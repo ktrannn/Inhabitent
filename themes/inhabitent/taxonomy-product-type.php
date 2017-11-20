@@ -7,15 +7,15 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
+<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>
 
 			<header class="page-header">
-			<h1 class="page-title">shop stuff</h1>
-				
-				<?php 
+				<?php
+					the_archive_title( '<h1 class="tax-page-title">', '</h1>' );
+					the_archive_description( '<div class="taxonomy-description">', '</div>' );
 				?>
 			</header>
 			<div class="archive-product-content">
@@ -33,15 +33,8 @@ get_header(); ?>
 						
 					<?php endif; ?>
 
+						<p><?php echo get_the_title(); ?></p>
 
-						<div class="name-price">
-						<p><?php echo get_the_title();?></p>
-						<p><?php echo "hello" ?></p>
-						</div>
-
-						
-					
-			
 			</article><!-- #post-## -->
 			</div>
 			<?php endwhile; ?>
@@ -56,6 +49,7 @@ get_header(); ?>
 		</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
+
 
 
 <?php get_footer(); ?>

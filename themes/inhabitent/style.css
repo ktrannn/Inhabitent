@@ -1031,6 +1031,43 @@ a:visited {
   .post-type-archive .social-buttons :before {
     padding-right: 1rem; }
 
+.post-type-archive .archive-product-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly; }
+
+.post-type-archive .item-grid {
+  -ms-flex-preferred-size: 22.5%;
+      flex-basis: 22.5%; }
+
+.tax-product-type .content-area {
+  width: 100%; }
+
+.tax-product-type .page-header {
+  text-align: center;
+  border-bottom: 1px dashed #e1e1e1; }
+
+.tax-product-type .tax-page-title {
+  text-transform: uppercase; }
+
+.tax-product-type .archive-product-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 3rem; }
+
+.tax-product-type .item-grid {
+  -ms-flex-preferred-size: 23%;
+      flex-basis: 23%;
+  max-width: 23%; }
+
 .product-template-default .entry-title {
   color: #d99054;
   text-transform: uppercase; }

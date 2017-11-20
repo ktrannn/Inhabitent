@@ -256,8 +256,42 @@ a:visited{
       padding-right:1rem;
     }
   }
-}   
 
+  .archive-product-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .item-grid{
+    flex-basis:22.5%;
+  }
+
+
+}   
+// taxonomy product page//
+.tax-product-type{
+  .content-area{
+    width:100%;
+  }
+  .page-header{
+    text-align: center;
+    border-bottom: 1px dashed $lightgrey;
+  }
+
+  .tax-page-title{
+    text-transform: uppercase;
+  }
+  .archive-product-content{
+    display:flex;
+    justify-content: space-around;
+    padding-top:3rem;
+  }
+  .item-grid{
+    flex-basis:23%;
+    max-width:23%;
+  }
+}
 
 
 
@@ -455,3 +489,4 @@ a:visited{
     font-size:1.15rem;
   }
 }
+
