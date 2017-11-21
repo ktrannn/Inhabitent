@@ -26,6 +26,10 @@ a {
 
 .search-bar-nav{
 	display:flex;
+	.fa{
+		color:$green;
+		padding-top:7px;
+	}
 }
 	.hfeed{
 		.site-header{

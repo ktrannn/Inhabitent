@@ -475,6 +475,9 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+  .search-bar-nav .fa {
+    color: #248A83;
+    padding-top: 7px; }
 
 .hfeed .site-header {
   width: 100%;
