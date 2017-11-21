@@ -1202,7 +1202,7 @@ a:visited {
 .product-template-default .widget-area {
   display: none; }
 
-.product-template-default .single-product-buttons {
+.single-product-buttons {
   color: #000;
   text-transform: uppercase;
   border: 1px solid #000;
@@ -1211,7 +1211,7 @@ a:visited {
   background: #fff;
   border-radius: 0;
   font-size: 1rem; }
-  .product-template-default .single-product-buttons .fa {
+  .single-product-buttons .fa {
     padding-right: 1rem; }
 
 .tax-product-type .widget-area {

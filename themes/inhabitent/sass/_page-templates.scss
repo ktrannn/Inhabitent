@@ -382,22 +382,22 @@ a:visited{
     display:none;
   }
 
-  .single-product-buttons{
-    color: #000;
-    text-transform: uppercase;
-    border: 1px solid #000;
-    text-decoration: none;
-    padding: .75rem 1.5rem;
-    background:$main;
-    border-radius:0;
-    font-size:1rem;
-    .fa{
-      padding-right:1rem;
-    }
-  }
+  
   
 }
-
+.single-product-buttons{
+  color: #000;
+  text-transform: uppercase;
+  border: 1px solid #000;
+  text-decoration: none;
+  padding: .75rem 1.5rem;
+  background:$main;
+  border-radius:0;
+  font-size:1rem;
+  .fa{
+    padding-right:1rem;
+  }
+}
 
 
 //product category
