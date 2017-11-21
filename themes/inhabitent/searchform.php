@@ -5,10 +5,10 @@
 		<a href=# id="search-toggle" class="search-toggle" aria-hidden="true">
 			<i class="fa fa-search"></i>
 		</a>
-			<label>
-				<input type="search" id="search-field" class="search-field" placeholder="TYPE AND HIT ENTER..." value="<?php echo esc_attr( get_search_query() ); ?>" name="s" title="Search for:" />
-			</label>		
-			<span class="screen-reader-text"><?php echo esc_html( 'Search' ); ?></span>
-		
+		<label id="search-box">
+			<input type="search" id="search-field" class="search-field" placeholder="TYPE AND HIT ENTER..." value="<?php echo esc_attr( get_search_query() ); ?>" name="s" title="Search for:" />
+		</label>		
+		<span class="screen-reader-text"><?php echo esc_html( 'Search' ); ?></span>
+	
 	</div>
 </form>

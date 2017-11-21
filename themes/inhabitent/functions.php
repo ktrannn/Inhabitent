@@ -85,8 +85,8 @@ add_filter( 'stylesheet_uri', 'red_starter_minified_css', 10, 2 );
 function red_starter_scripts() {
 	wp_enqueue_style( 'red-starter-style', get_stylesheet_uri() );
 	wp_enqueue_style( 'tent-style', get_stylesheet_uri() );
-	wp_enqueue_script('jquery');
-	wp_enqueue_script('search-bar-script', get_template_directory_uri() . '/js/searchbar.js'   );
+	wp_enqueue_script('jquery','https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js', array(), null, true);
+	wp_enqueue_script('search', get_template_directory_uri() . '/js/search.js', array('jquery'), false, true);
 	wp_enqueue_script( 'red-starter-skip-link-focus-fix', get_template_directory_uri() . '/build/js/skip-link-focus-fix.min.js', array(), '20130115', true );
 	wp_enqueue_style('font-awesome','https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 	wp_enqueue_style('merriweather','https://fonts.googleapis.com/css?family=Merriweather');
@@ -116,3 +116,15 @@ function inhabitent_limit_archive_posts($query){
 	return $query;
 }
 add_filter( 'pre_get_posts', 'inhabitent_limit_archive_posts' );
+
+
+//shop stuff title
+
+
+// function shop_title( $query ){
+//     if ( $query->is_product) {
+//     $query->set( 'shop stuff', 'title' );
+//    }    
+// 			return $query;
+// }
+// add_action( 'pre_get_posts', 'shop_title');
