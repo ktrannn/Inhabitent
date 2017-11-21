@@ -14,9 +14,26 @@ get_header(); ?>
 
 			<header class="page-header">
 			<h1 class="page-title">shop stuff</h1>
-				
-				<?php 
-				?>
+
+			<?php
+				$terms = get_terms( array(
+						'taxonomy' => 'product-type',
+						'hide_empty' => 0,
+				) );
+				if ( ! empty( $terms ) && ! is_wp_error( $terms ) ) :
+			?>
+				<div class="shop-category-wrapper">
+					<div class="shop-category">
+					<?php foreach ( $terms as $term ) : ?>
+						<p><a href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a></p>
+					<?php endforeach; ?>
+					</div>
+				</div>
+			<?php endif; ?>
+
+
+
+
 			</header>
 			<div class="archive-product-content">
 			<?php /* Start the Loop */ ?>

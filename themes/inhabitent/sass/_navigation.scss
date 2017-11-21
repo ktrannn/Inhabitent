@@ -52,7 +52,9 @@ a {
 .main-navigation {
 	display: flex;
   align-items: center;
-
+	.menu-main-menu-container{
+		text-transform:uppercase;
+	}
 	ul {
 		display: none;
 		list-style: none;
