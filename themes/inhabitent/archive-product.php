@@ -54,8 +54,7 @@ get_header(); ?>
 						<div class="name-price">
 						<p class="item-name"><?php echo get_the_title(); ?> ....</p>
 						<p class="price-meta"> ......
-							<?php $meta_print_value=get_post_meta(get_the_ID(),'price',true);
-							echo($meta_print_value);?>
+							<?php echo CFS()->get('price');?>
 						</p>
 						</div>
 

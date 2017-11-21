@@ -698,6 +698,8 @@ a {
   position: relative; }
   .entry-header img {
     width: 100%; }
+  .entry-header .price {
+    font-size: 2rem; }
 
 .single-post h1.entry-title {
   position: absolute;
