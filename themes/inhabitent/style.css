@@ -471,6 +471,11 @@ a {
   a:hover, a:active {
     outline: 0; }
 
+.search-bar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
 .hfeed .site-header {
   width: 100%;
   position: fixed;
@@ -945,6 +950,7 @@ object {
     font-size: 0.75rem; }
 
 .home .site-main .product-type-blocks {
+  font-size: 0.95rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1002,7 +1008,7 @@ a:visited {
       top: 0;
       padding-left: 1rem; }
       .adventures-wrapper .adventure-left-block .adventure-info h3 {
-        font-size: 2rem;
+        font-size: 3.1rem;
         color: #fff;
         font-weight: 400; }
   .adventures-wrapper .adventure-right-block {
@@ -1023,6 +1029,8 @@ a:visited {
         position: absolute;
         top: 0;
         padding-left: 1rem; }
+        .adventures-wrapper .adventure-right-block .beach-adventure .adventure-info h3 {
+          font-size: 2.6rem; }
     .adventures-wrapper .adventure-right-block .hiker-adventure {
       position: relative;
       -ms-flex-preferred-size: 50%;
@@ -1036,7 +1044,7 @@ a:visited {
         top: 0;
         padding-left: 1rem; }
     .adventures-wrapper .adventure-right-block .adventure-info h3 {
-      font-size: 2rem;
+      font-size: 1.75rem;
       color: #fff;
       font-weight: 400; }
     .adventures-wrapper .adventure-right-block .star-adventure {
@@ -1143,7 +1151,14 @@ a:visited {
   border-bottom: 1px dashed #e1e1e1; }
 
 .tax-product-type .tax-page-title {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-family: "Novecento"; }
+
+.tax-product-type .taxonomy-description {
+  font-size: 1rem;
+  font-weight: lighter;
+  font-family: "Merriweather";
+  text-transform: lowercase; }
 
 .tax-product-type .archive-product-content {
   display: -webkit-box;
@@ -1159,10 +1174,9 @@ a:visited {
   max-width: 23%;
   border: 1px solid #e1e1e1;
   height: 310px; }
-
-.tax-product-type a img {
-  border-bottom: 5px solid #e1e1e1;
-  height: 250px; }
+  .tax-product-type .item-grid a img {
+    border-bottom: 5px solid #e1e1e1;
+    height: 250px; }
 
 .tax-product-type .content-area {
   padding-bottom: 5rem; }
