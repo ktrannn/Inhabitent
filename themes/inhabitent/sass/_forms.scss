@@ -63,3 +63,15 @@ textarea {
 	width: 100%;
 }
 
+input{
+  outline:none;
+}
+
+#search-field{
+  background: none;
+  width: 0px;
+  border: none;
+  font-family:$headfont;
+}
+
+

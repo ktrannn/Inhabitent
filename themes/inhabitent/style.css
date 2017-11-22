@@ -456,6 +456,15 @@ textarea {
   padding-left: 3px;
   width: 100%; }
 
+input {
+  outline: none; }
+
+#search-field {
+  background: none;
+  width: 0px;
+  border: none;
+  font-family: "Novecento"; }
+
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
@@ -1346,12 +1355,6 @@ a:visited {
   font-size: 1.15rem; }
 
 .page-template-default h1 {
-  font-family: "Novecento"; }
-
-#search-field {
-  background: none;
-  width: 0px;
-  border: none;
   font-family: "Novecento"; }
 
 .site-footer {
