@@ -2,7 +2,7 @@
 	<div class="search-bar-nav">
 		
 
-		<a href=# id="search-toggle" class="search-toggle" aria-hidden="true">
+		<a id="search-toggle" class="search-toggle" aria-hidden="true">
 			<i class="fa fa-search"></i>
 		</a>
 		<label id="search-box">

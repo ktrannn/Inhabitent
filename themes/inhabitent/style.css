@@ -1348,6 +1348,12 @@ a:visited {
 .page-template-default h1 {
   font-family: "Novecento"; }
 
+#search-field {
+  background: none;
+  width: 0px;
+  border: none;
+  font-family: "Novecento"; }
+
 .site-footer {
   background: url("../../images/dark-wood.png"); }
 
