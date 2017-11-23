@@ -11,6 +11,7 @@
 
   $('#search-field').animate( { width: 0 }, 0 );
     
-  
+
+
 })(jQuery);
 

@@ -5,6 +5,8 @@
  * @link  http://codex.wordpress.org/Function_Reference/register_taxonomy
  */
 
+add_action( 'init', 'inhabitent_tax_product_type', 0 );
+
 function inhabitent_tax_product_type() {
   
     $labels = array(
@@ -42,4 +44,4 @@ function inhabitent_tax_product_type() {
     register_taxonomy( 'product-type', array( 'product' ), $args );
   
   }
-  add_action( 'init', 'inhabitent_tax_product_type', 0 );
+
