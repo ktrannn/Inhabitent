@@ -2,7 +2,7 @@
 # Content
 --------------------------------------------------------------*/
 
-/* Posts and pages */
+/* JOURNAL PAGE / SINGLE POST */
 
 .site-content{
 	display:flex;
@@ -14,7 +14,6 @@
 	padding-right:5%;
 }
 
-
 .archive{
 	.entry-title{
 		position: absolute;
@@ -25,15 +24,11 @@
 		max-width: 75%;
 		padding-left:1rem;
 		padding-right:1rem;	
-	
-		
 		a{
 			color:$main;
 			text-decoration: none;
 		}
 	}
-	
-	
 }
 
 .page,.single,.blog,.archive{
@@ -57,9 +52,6 @@
 	}
 }
 
-
-
-
 .single-post{
 	h1.entry-title{
 		position: absolute;
@@ -71,7 +63,6 @@
 		color:$main;
 		font-family:$headfont;
 	}
-
 	.comments-link{
 		a{
 			text-decoration: none;
@@ -79,7 +70,6 @@
 			padding-left:1rem;
 		}
 	}
-
 	.entry-footer {
 	.cat-links{
 		padding-right:1rem;
@@ -92,14 +82,11 @@
 }
 
 .blog{
-
 	.read-more-wrapper{
 		padding-bottom:2rem;
 	}
-
 	.entry-header{
 		h2.entry-title{
-	
 			top:0;
 			background-color: $green;
 			margin-top:2rem;
@@ -109,15 +96,13 @@
 			padding-right:1rem;	
 			position: absolute;
 		}
-
 		a{
 			font-family:$headfont;
 			color:#fff;
 			text-decoration:none;
 		}
-}
+ }
 }	
-	
 
 .entry-meta{
 	position: absolute;
@@ -126,9 +111,7 @@
 	background-color:$green;
 	color:$main;
 	padding:0.5rem;
-	
 }
-
 
 .hentry {
 	margin: 0 0 $base__space-unit;
@@ -155,17 +138,16 @@
 }
 
 /* Asides */
-
 .blog .format-aside .entry-title,
 .archive .format-aside .entry-title {
 	display: none;
 }
 
 /* Comments */
-
 .comment-content a {
 	word-wrap: break-word;
 }
+
 .bypostauthor {
 	display: block;
 }
@@ -184,6 +166,7 @@
 			}
 	}
 }
+
 .single-format-standard{
 	.social-buttons{
 		.fa:before{
@@ -192,8 +175,7 @@
 	}
 }
 
-//find us
-
+/* FIND US */
 .page-id-7{
 	.site-main{
 		padding-top: 10%;
