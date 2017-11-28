@@ -24,7 +24,7 @@ function inhabitant_login_logo(){
     echo '
     <style type = "text/css">
     .login h1 a {
-        background: url(project-04/images/logos/inhabitent-logo-text-dark.svg);
+        background: url(images/logos/inhabitent-logo-text-dark.svg);
         height: 56px;
         width: 314px;
         background-size: contain;
