@@ -78,14 +78,17 @@ get_header(); ?>
 				</section>
 			</div>
 
+
 			<div class="max-contain">
 			<h2>latest adventures</h2>					
+
+			<!-- TODO create a get_posts loop similar to journals for looping through adventure post type  -->
 			  <section class="adventures-wrapper">
 					<div class="adventure-left-block">
 						<img src=<?php echo get_template_directory_uri() . "/images/adventure-photos/canoe-girl.jpg" ?>	>		
 						<div class="adventure-info">
 							<h3>Getting Back to Nature in a Canoe</h3>
-							<a href="<?php the_permalink(); ?>" class="advbtn read-more">Read More</a>	
+							<a href="<?php echo home_url() . '/getting-back-to-nature-in-a-canoe'; ?>" class="advbtn read-more">Read More</a>	
 						</div>
 					</div>			
 					<div class="adventure-right-block">
@@ -93,7 +96,7 @@ get_header(); ?>
 							<img src=<?php echo get_template_directory_uri() . "/images/adventure-photos/beach-bonfire.jpg" ?>	>		  	
 							<div class="adventure-info">
 								<h3>A Night with Friends at the Beach</h3>	
-								<a href="<?php the_permalink(); ?>" class="advbtn read-more">Read More</a>		
+								<a href="<?php echo home_url() . '/a-night-with-friends-at-the-beach'; ?>" class="advbtn read-more">Read More</a>		
 							</div>
 						</div>			
 
@@ -101,7 +104,7 @@ get_header(); ?>
 							<img src=<?php echo get_template_directory_uri() . "/images/adventure-photos/mountain-hikers.jpg" ?>	>		  	
 							<div class="adventure-info">
 								<h3>Taking in the View at Big Mountain</h3>	
-								<a href="<?php the_permalink(); ?>" class="advbtn read-more">Read More</a>		
+								<a href="<?php echo home_url() . '/taking-in-the-view-at-big-mountain' ?>" class="advbtn read-more">Read More</a>		
 							</div>
 						</div>	
 
@@ -109,13 +112,13 @@ get_header(); ?>
 							<img src=<?php echo get_template_directory_uri() . "/images/adventure-photos/night-sky.jpg" ?>	>		  	
 							<div class="adventure-info">
 								<h3>Star-Gazing at the Night Sky</h3>	
-								<a href="<?php the_permalink(); ?>" class="advbtn read-more">Read More</a>		
+								<a href="<?php echo home_url() . '/star-gazing-at-the-night-sky'; ?>" class="advbtn read-more">Read More</a>		
 							</div>
 						</div>	
 
 					</div>			
 				</section>
-				<p class="advreadmore"><a href="<?php the_permalink(); ?>" class="moreadventures read-more">More Adventures</a><p>
+				<p class="advreadmore"><a href="<?php echo home_url() . '/adventure'; ?>" class="moreadventures read-more">More Adventures</a><p>
 
 			</div>
 		</main><!-- #main -->

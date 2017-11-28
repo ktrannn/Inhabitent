@@ -121,13 +121,7 @@ function inhabitent_limit_archive_posts($query){
 add_filter( 'pre_get_posts', 'inhabitent_limit_archive_posts' );
 
 
-//shop stuff title
-
-
-// function shop_title( $query ){
-//     if ( $query->is_product) {
-//     $query->set( 'shop stuff', 'title' );
-//    }    
-// 			return $query;
+// function get_link_by_slug($slug, $type = 'post'){
+//   $post = get_page_by_path($slug, OBJECT, $type);
+//   return get_permalink($post->ID);
 // }
-// add_action( 'pre_get_posts', 'shop_title');
