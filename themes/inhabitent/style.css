@@ -910,7 +910,7 @@ a {
 .archive .entry-title {
   position: absolute;
   top: 0;
-  background-color: #248a83;
+  background-color: #248A83;
   margin-top: 2rem;
   font-size: 2rem;
   max-width: 75%;
@@ -1707,7 +1707,8 @@ a:visited {
   background-color: transparent;
   font-size: 2.5rem;
   max-width: 100%;
-  font-family: "Merriweather"; }
+  font-family: "Merriweather";
+  margin-top: 4rem; }
 
 .post-type-archive-adventure .entry-title a:hover {
   color: #f0e4d1; }
@@ -1725,7 +1726,7 @@ a:visited {
 
 .post-type-archive-adventure .read-more-wrapper {
   position: absolute;
-  top: 36%;
+  top: 50%;
   padding-left: 1rem; }
 
 .post-type-archive-adventure .advbtn {
