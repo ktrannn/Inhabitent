@@ -119,9 +119,3 @@ function inhabitent_limit_archive_posts($query){
 	return $query;
 }
 add_filter( 'pre_get_posts', 'inhabitent_limit_archive_posts' );
-
-
-// function get_link_by_slug($slug, $type = 'post'){
-//   $post = get_page_by_path($slug, OBJECT, $type);
-//   return get_permalink($post->ID);
-// }

@@ -9,59 +9,45 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-
-		
-
 			<?php if ( is_home() && ! is_front_page() ) : ?>
 				<header>
 					<h1 class="page-title screen-reader-text"><?php single_post_title();  ?></h1>
 				</header>
 			<?php endif; ?>
-
 			<div class="hero-banner">
 				<img src=<?php echo get_template_directory_uri() . "/images/logos/inhabitent-logo-full.svg" ?> >
 			</div>	
-			
 			<section class="product-info container max-contain">
-
-						<h2>shop stuff</h2>
-						
-            <?php
-               $terms = get_terms( array(
-                   'taxonomy' => 'product-type',
-                   'hide_empty' => 0,
-               ) );
-               if ( ! empty( $terms ) && ! is_wp_error( $terms ) ) :
-            ?>
-               <div class="product-type-blocks">
-
-                  <?php foreach ( $terms as $term ) : ?>
-
-                     <div class="product-type-block-wrapper">
-                        <img src="<?php echo get_template_directory_uri() . '/images/product-type-icons/' . $term->slug; ?>.svg" alt="<?php echo $term->name; ?>" />
-                        <p><?php echo $term->description; ?></p>
-                        <p><a href="<?php echo get_term_link( $term ); ?>" class="btn"><?php echo $term->name; ?> Stuff</a></p>
-                     </div>
-
-                  <?php endforeach; ?>
-
-               </div>
-               
-            <?php endif; ?>
+				<h2>shop stuff</h2>
+				<?php
+					$terms = get_terms( array(
+							'taxonomy' => 'product-type',
+							'hide_empty' => 0,
+					) );
+					if ( ! empty( $terms ) && ! is_wp_error( $terms ) ) :
+				?>
+					<div class="product-type-blocks">
+						<?php foreach ( $terms as $term ) : ?>
+								<div class="product-type-block-wrapper">
+									<img src="<?php echo get_template_directory_uri() . '/images/product-type-icons/' . $term->slug; ?>.svg" alt="<?php echo $term->name; ?>" />
+									<p><?php echo $term->description; ?></p>
+									<p><a href="<?php echo get_term_link( $term ); ?>" class="btn"><?php echo $term->name; ?> Stuff</a></p>
+								</div>
+						<?php endforeach; ?>
+					</div>			
+				<?php endif; ?>
       </section>
 			
+			<?php /* JOURNAL ENTRY LOOP */?>
 			<div class="max-contain">
-			<?php /* Start the Loop */ ?>
 			<h2>inhabitant journal</h2>
 			<?php
 			$args = array( 'numberposts' => '3', 'order' => 'DESC');
 			$product_posts = get_posts( $args );
 			$thumbnail = array( 'large' );?>
-
 				<section class="journal-wrapper">
 					<div class="journal-entries">			
 					<?php foreach ( $product_posts as $post ) : setup_postdata( $post );?>
-					
 					<article class="journal-entry">
 					<?php the_post_thumbnail( 'medium' ); ?>
 						<div class="journal-info">
@@ -72,16 +58,14 @@ get_header(); ?>
 	  			 	</div>
 					</div>
 					</article>
-
 					<?php endforeach; wp_reset_postdata(); ?>
 					</div>				
 				</section>
 			</div>
-
-
+			
+			<?php /* 	ADVENTURE LOOP */ ?>
 			<div class="max-contain">
 			<h2>latest adventures</h2>					
-
 			<!-- TODO create a get_posts loop similar to journals for looping through adventure post type  -->
 			  <section class="adventures-wrapper">
 					<div class="adventure-left-block">
@@ -99,7 +83,6 @@ get_header(); ?>
 								<a href="<?php echo home_url() . '/a-night-with-friends-at-the-beach'; ?>" class="advbtn read-more">Read More</a>		
 							</div>
 						</div>			
-
 						<div class="hiker-adventure">
 							<img src=<?php echo get_template_directory_uri() . "/images/adventure-photos/mountain-hikers.jpg" ?>	>		  	
 							<div class="adventure-info">
@@ -107,7 +90,6 @@ get_header(); ?>
 								<a href="<?php echo home_url() . '/taking-in-the-view-at-big-mountain' ?>" class="advbtn read-more">Read More</a>		
 							</div>
 						</div>	
-
 						<div class="star-adventure">
 							<img src=<?php echo get_template_directory_uri() . "/images/adventure-photos/night-sky.jpg" ?>	>		  	
 							<div class="adventure-info">
@@ -115,14 +97,10 @@ get_header(); ?>
 								<a href="<?php echo home_url() . '/star-gazing-at-the-night-sky'; ?>" class="advbtn read-more">Read More</a>		
 							</div>
 						</div>	
-
 					</div>			
 				</section>
 				<p class="advreadmore"><a href="<?php echo home_url() . '/adventure'; ?>" class="moreadventures read-more">More Adventures</a><p>
-
 			</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
-
 <?php get_footer(); ?>

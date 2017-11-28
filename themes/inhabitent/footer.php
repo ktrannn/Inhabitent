@@ -8,7 +8,6 @@
 ?>
 
 		</div><!-- #content -->
-
 			<footer id="colophon" class="site-footer" role="contentinfo">
 				<div class="footer-info-des">
 					<div class="footer-text">
@@ -41,9 +40,6 @@
 				</div><!-- .site-info -->
 				<div class="copyright">COPYRIGHT © 2016 INHABITENT</div>	
 			</footer><!-- #colophon -->
-		
-
 		<?php wp_footer(); ?>
-
 	</body>
 </html>
