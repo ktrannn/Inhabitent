@@ -923,6 +923,11 @@ a {
 .page .content-area, .single .content-area, .blog .content-area, .archive .content-area {
   padding-left: 5%; }
 
+.hfeed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
 .sticky {
   display: block; }
 

@@ -45,6 +45,7 @@ get_header(); ?>
 			$args = array( 'numberposts' => '3', 'order' => 'DESC');
 			$product_posts = get_posts( $args );
 			$thumbnail = array( 'large' );?>
+			
 				<section class="journal-wrapper">
 					<div class="journal-entries">			
 					<?php foreach ( $product_posts as $post ) : setup_postdata( $post );?>
@@ -65,10 +66,31 @@ get_header(); ?>
 			
 			<?php /* 	ADVENTURE LOOP */ ?>
 			<div class="max-contain">
-			<h2>latest adventures</h2>					
+			<h2>latest adventures</h2>	
+			<?php
+			$adventure_posts = wp_get_post_terms($post->ID, 'adventure', array("fields" => "all"));
+			?>	
 			<!-- TODO create a get_posts loop similar to journals for looping through adventure post type  -->
 			  <section class="adventures-wrapper">
-					<div class="adventure-left-block">
+				<?php foreach ( $adventure_posts as $post ) : setup_postdata( $post );?>
+					<article class="journal-entry">
+					<?php the_post_thumbnail( 'medium' ); ?>
+						<div class="journal-info">
+								<a href="<?php the_permalink(); ?>" class="read-more">Read Entry</a>
+							<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );?>
+					</div>
+					</article>
+					<?php endforeach; wp_reset_postdata(); ?>
+				</section>
+				<p class="advreadmore"><a href="<?php echo home_url() . '/adventure'; ?>" class="moreadventures read-more">More Adventures</a><p>
+			</div>
+		</main><!-- #main -->
+	</div><!-- #primary -->
+<?php get_footer(); ?>
+
+
+
+<!-- <div class="adventure-left-block">
 						<img src=<?php echo get_template_directory_uri() . "/images/adventure-photos/canoe-girl.jpg" ?>	>		
 						<div class="adventure-info">
 							<h3>Getting Back to Nature in a Canoe</h3>
@@ -97,10 +119,4 @@ get_header(); ?>
 								<a href="<?php echo home_url() . '/star-gazing-at-the-night-sky'; ?>" class="advbtn read-more">Read More</a>		
 							</div>
 						</div>	
-					</div>			
-				</section>
-				<p class="advreadmore"><a href="<?php echo home_url() . '/adventure'; ?>" class="moreadventures read-more">More Adventures</a><p>
-			</div>
-		</main><!-- #main -->
-	</div><!-- #primary -->
-<?php get_footer(); ?>
+					</div>			 -->
