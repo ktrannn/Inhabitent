@@ -1,94 +1,6 @@
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
-.adv-read-more{
-  color: white;
-  text-transform: uppercase;
-  border: 1px solid white;
-  text-decoration: none;
-  padding: .75rem 1.5rem;
-  font-family: $headfont;
-  a:visited{
-    color:white;
-  }
-}
-.adventures-wrapper{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-gap:10px;
-  .container:nth-child(1){
-    position: relative;
-    grid-column: 1/3;
-    grid-row: 1/3;
-    .adventure-entry{
-      img{
-        width:100%;
-        height:500px;
-      }
-      .entry-title{
-         a{
-          font-size:2.5rem;
-        }
-      }
-    }
-    
-  }
-  .container:nth-child(2){
-    position: relative;
-    grid-column: 3/5;
-    .adventure-entry{
-      img{
-        width:100%;
-        height:250px;
-      }
-      .entry-title{
-        a{
-         font-size:2.5rem;
-       }
-      } 
-    }
-  }
-  .container:nth-child(3){
-    position: relative;
-    .adventure-entry{
-      img{
-        height:235px;
-      }
-    }
-  }
-  .container:nth-child(4){
-    position: relative;
-    .adventure-entry{
-      img{
-        height:235px;
-      }
-    }
-  }
-
-  .adventure-entry{
-    .adventure-info{
-      position: absolute;
-      top:0;
-      width:auto;
-      display: flex;
-      flex-direction: column-reverse;
-      align-items: flex-start;
-      padding:.75rem;
-      .entry-title{
-        font-size: 20px;
-        padding-top: 0;
-        padding-bottom: 0;
-        text-align:left;
-        a{
-          color:white;
-          text-decoration: none;
-        }
-      }
-    }
-  }
-  
-}
 
 
 /* UTILITY */
@@ -223,82 +135,93 @@ a:visited{
   color:black;
 }
 
-// .adventures-wrapper{
-//   display:flex;
-//   .adventure-left-block{
-//     position:relative;
-//     flex-basis:50%;
-//     img{
-//       height: 540px;
-//       width: auto;
-//       border-right: 20px solid white;
-//     }
-//     .adventure-info{
-//       position:absolute;
-//       top:0;
-//       padding-left:1rem;
-//       h3{
-//         font-size:3.1rem;
-//         color:$main;
-//         font-weight:400;
-//       }
-//     }
-//   }
-//   .adventure-right-block{
-//     flex-basis:50%;
-//     display:flex;
-//     flex-wrap:wrap;
-//   .beach-adventure{
-//     position:relative;
-//     img{
-//       height: 270px;
-//       width: 640px;
-//       border-bottom: 8px solid white;
-//     }
-//     .adventure-info{
-//       position: absolute;
-//       top: 0;
-//       padding-left: 1rem;
-//       h3{
-//         font-size:2.6rem;
-//       }
-//     }
-//   }
-//   .hiker-adventure{
-//     position:relative;
-//     flex-basis:50%;
-//     border-right: 10px solid white;
-//     img{
-//       width: 320px;
-//       height: 262px;
-//     }
-//     .adventure-info{
-//       position: absolute;
-//       top: 0;
-//       padding-left: 1rem;
-//     }
-//   }  
-//   .adventure-info h3{
-//     font-size:1.75rem;
-//     color:$main;
-//     font-weight:400;
-//   }
-//   .star-adventure{
-//     position:relative;
-//     flex-basis:50%;
-//     img{
-//       width: 320px;
-//       height: 262px;
-//       border-left: 10px solid white;
-//     }
-//     .adventure-info{
-//       position: absolute;
-//       top: 0;
-//       padding-left: 2rem;
-//     }
-//   }
-//   }
-// }
+.adv-read-more{
+  color: white;
+  text-transform: uppercase;
+  border: 1px solid white;
+  text-decoration: none;
+  padding: .75rem 1.5rem;
+  font-family: $headfont;
+  a:visited{
+    color:white;
+  }
+}
+/* ADVENTURE GRID */
+.adventures-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap:10px;
+  .container:nth-child(1){
+    position: relative;
+    grid-column: 1/3;
+    grid-row: 1/3;
+    .adventure-entry{
+      img{
+        width:100%;
+        height:500px;
+      }
+      .entry-title{
+         a{
+          font-size:2.5rem;
+        }
+      }
+    }
+  }
+  .container:nth-child(2){
+    position: relative;
+    grid-column: 3/5;
+    .adventure-entry{
+      img{
+        width:100%;
+        height:250px;
+      }
+      .entry-title{
+        a{
+         font-size:2.5rem;
+       }
+      } 
+    }
+  }
+  .container:nth-child(3){
+    position: relative;
+    .adventure-entry{
+      img{
+        height:235px;
+      }
+    }
+  }
+  .container:nth-child(4){
+    position: relative;
+    .adventure-entry{
+      img{
+        height:235px;
+      }
+    }
+  }
+
+  .adventure-entry{
+    .adventure-info{
+      position: absolute;
+      top:0;
+      width:auto;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: flex-start;
+      padding:.75rem;
+      .entry-title{
+        font-size: 20px;
+        padding-top: 0;
+        padding-bottom: 0;
+        text-align:left;
+        a{
+          color:white;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
 
 /* PRODUCT PAGE */
 .post-type-archive{ 
