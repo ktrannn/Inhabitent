@@ -73,6 +73,7 @@ get_header(); ?>
 			?>	
 			  <section class="adventures-wrapper">
 				<?php foreach ( $adventure_posts as $post ) : setup_postdata( $post );?>
+					<div class="container">
 						<article class="adventure-entry">
 							<?php the_post_thumbnail( 'medium' ); ?>
 								<div class="journal-info">
@@ -81,6 +82,7 @@ get_header(); ?>
 							</div>
 							</article>
 						<?php endforeach; wp_reset_postdata(); ?>
+						</div></div></div></div>
 				</section>
 				<p class="advreadmore"><a href="<?php echo home_url() . '/adventure'; ?>" class="moreadventures read-more">More Adventures</a><p>
 			</div>
