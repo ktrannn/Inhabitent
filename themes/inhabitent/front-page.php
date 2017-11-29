@@ -67,37 +67,24 @@ get_header(); ?>
 			<?php /* 	ADVENTURE LOOP */ ?>
 			<div class="max-contain">
 			<h2>latest adventures</h2>	
-			    <section class="adventures-wrapper">
-					<	<div class="adventure-left-block">
-					<img src=<?php echo get_template_directory_uri() . "/images/adventure-photos/canoe-girl.jpg" ?>	>		
-					<div class="adventure-info">
-						<h3>Getting Back to Nature in a Canoe</h3>
-						<a href="<?php echo home_url() . '/getting-back-to-nature-in-a-canoe'; ?>" class="advbtn read-more">Read More</a>	
+
+					<?php
+								$args = array( 'posts_per_page' => 4, 'post_type' => 'adventure'  );			
+								$adventure_posts = get_posts($args);
+								?>	
+								  <section class="adventures-wrapper">
+									<?php foreach ( $adventure_posts as $post ) : setup_postdata( $post );?>
+										<div class="container">
+											<article class="adventure-entry">
+												<?php the_post_thumbnail( 'medium' ); ?>
+													<div class="adventure-info">
+															<a href="<?php the_permalink(); ?>" class="adv-read-more">Read Entry</a>
+														<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );?>
+												</div>
+												</article>
 					</div>
-				</div>		
-				<div class="adventure-right-block">
-					<div class="beach-adventure">
-						<img src=<?php echo get_template_directory_uri() . "/images/adventure-photos/beach-bonfire.jpg" ?>	>		  	
-						<div class="adventure-info">
-							<h3>A Night with Friends at the Beach</h3>	
-							<a href="<?php echo home_url() . '/a-night-with-friends-at-the-beach'; ?>" class="advbtn read-more">Read More</a>		
-						</div>
-					</div>			
-					<div class="hiker-adventure">
-						<img src=<?php echo get_template_directory_uri() . "/images/adventure-photos/mountain-hikers.jpg" ?>	>		  	
-						<div class="adventure-info">
-							<h3>Taking in the View at Big Mountain</h3>	
-							<a href="<?php echo home_url() . '/taking-in-the-view-at-big-mountain' ?>" class="advbtn read-more">Read More</a>		
-						</div>
-					</div>	
-					<div class="star-adventure">
-						<img src=<?php echo get_template_directory_uri() . "/images/adventure-photos/night-sky.jpg" ?>	>		  	
-						<div class="adventure-info">
-							<h3>Star-Gazing at the Night Sky</h3>	
-							<a href="<?php echo home_url() . '/star-gazing-at-the-night-sky'; ?>" class="advbtn read-more">Read More</a>		
-						</div>
-					</div>	
-				</div>			
+											<?php endforeach; wp_reset_postdata(); ?>
+											<!-- </div></div></div></div> -->
 				</section>
 				<p class="advreadmore"><a href="<?php echo home_url() . '/adventure'; ?>" class="moreadventures read-more">More Adventures</a><p>
 			</div>
