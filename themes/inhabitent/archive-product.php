@@ -30,14 +30,8 @@ get_header(); ?>
 					</div>
 				</div>
 			<?php endif; ?>
-
-
-
-
 			</header>
 			<div class="archive-product-content">
-			<?php /* Start the Loop */ ?>
-			
 			<?php while ( have_posts() ) : the_post(); ?>
 			<div class="item-grid">
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -47,20 +41,13 @@ get_header(); ?>
 						<a href="<?php echo get_the_permalink(); ?>">
 							<?php the_post_thumbnail( 'medium' ); ?>
 						</a>
-						
 					<?php endif; ?>
-
-
 						<div class="name-price">
 						<p class="item-name"><?php echo get_the_title(); ?> ....</p>
 						<p class="price-meta"> ......
 							<?php echo CFS()->get('price');?>
 						</p>
 						</div>
-
-						
-					
-			
 			</article><!-- #post-## -->
 			</div>
 			<?php endwhile; ?>
