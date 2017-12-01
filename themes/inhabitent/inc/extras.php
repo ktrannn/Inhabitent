@@ -74,3 +74,10 @@ function inhabitent_dynamic_css(){
 
 add_action ( 'wp_enqueue_scripts', 'inhabitent_dynamic_css' );
 
+function inhabitent_limit_archive_posts($query){
+	if ( $query->is_archive ) {
+			$query->set( 'posts_per_page', 20) ;
+	}
+	return $query;
+}
+add_filter( 'pre_get_posts', 'inhabitent_limit_archive_posts' );

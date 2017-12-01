@@ -75,7 +75,7 @@ get_header(); ?>
 							<article class="adventure-entry">
 								<?php the_post_thumbnail( 'medium' ); ?>
 								<div class="adventure-info">
-										<a href="<?php the_permalink(); ?>" class="adv-read-more">Read Entry</a>
+										<a href="<?php the_permalink(); ?>" class="adventure-read-more">Read More</a>
 									<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );?>
 								</div>
 							</article>

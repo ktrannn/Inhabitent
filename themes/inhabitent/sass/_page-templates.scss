@@ -134,7 +134,23 @@
 a:visited{
   color:black;
 }
-
+.blog,.home{
+  .adventure-read-more:hover,.read-more:hover{
+    color:white;
+    background-color:$green;
+    border:1px solid $green;
+  }
+}
+.home{
+  .adventure-read-more{
+    color: white;
+    border: 1px solid white;
+    text-transform: uppercase;
+    text-decoration:none;
+    padding: .75rem 1.5rem;
+    font-family:$headfont;
+  }
+}
 .adv-read-more{
   color: white;
   text-transform: uppercase;
@@ -397,6 +413,11 @@ a:visited{
   border-radius:0;
   font-size:1rem;
   font-family:$headfont;
+  &:hover{
+    background-color: $green;
+    border: 1px solid $green;
+    color: #fff;
+  }
   .fa{
     padding-right:1rem;
   }
