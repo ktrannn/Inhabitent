@@ -9,9 +9,9 @@
       $('.search-field').animate( { width: "0px", border:"none" }, 500 );
   });
 
-  $('.search-field').animate( { width: 0 }, 0 );
+  $('.search-field').animate( { width: 0,border: 'none', }, 0 );
     
-
+  
 
 })(jQuery);
 

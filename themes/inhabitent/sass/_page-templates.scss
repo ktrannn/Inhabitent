@@ -532,6 +532,10 @@ a:visited{
     text-transform: uppercase;
   }
 }
+.sorry-search{
+  margin-top:8rem;
+  padding-left:3rem;
+}
 
 /* 404 PAGE */
 .error404{
@@ -568,6 +572,14 @@ a:visited{
   }
   .archive-dropdown{
     font-size:1.15rem;
+  }
+  .page-content{
+    .search-toggle{
+      display:none;
+    }
+    .search-field{
+      width:200px !important;
+    }
   }
 }
 
