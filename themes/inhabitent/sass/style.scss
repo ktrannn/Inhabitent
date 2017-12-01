@@ -44,14 +44,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Page Templates
 	## Front page
 --------------------------------------------------------------*/
-
-// Imported but not included in the stylesheet.
-
 @import "variables";
 @import "mixins";
-
-// CSS included in style.css.
-
 @import "normalize";
 @import "fonts";
 @import "typography";
