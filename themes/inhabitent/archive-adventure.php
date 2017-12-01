@@ -12,7 +12,6 @@ get_header(); ?>
 		  <?php if ( have_posts() ) : ?>
 			<?php if ( is_home() && ! is_front_page() ) : ?>
 			<?php endif; ?>
-			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
       <div class="adventure-grid">
         <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>

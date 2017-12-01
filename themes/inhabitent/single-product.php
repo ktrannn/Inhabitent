@@ -17,12 +17,10 @@ get_header(); ?>
         <header class="entry-header">
           <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
           <p class="price"><?php echo CFS()->get('price')?></p>
-
           <div class="entry-meta">
             <?php red_starter_posted_on(); ?> / <?php red_starter_comment_count(); ?> / <?php red_starter_posted_by(); ?>
           </div><!-- .entry-meta -->
         </header><!-- .entry-header -->
-
         <div class="entry-content">
           <?php the_content(); ?>
           <?php
@@ -43,12 +41,11 @@ get_header(); ?>
       </footer><!-- .entry-footer -->
     </article><!-- #post-## -->
 			<?php
-				// If comments are open or we have at least one comment, load up the comment template.
 				if ( comments_open() || get_comments_number() ) :
 					comments_template();
 				endif;
 			?>
-		<?php endwhile; // End of the loop. ?>
+		<?php endwhile;?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 <?php get_sidebar(); ?>

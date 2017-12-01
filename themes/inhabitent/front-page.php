@@ -67,24 +67,20 @@ get_header(); ?>
 			<?php /* 	ADVENTURE LOOP */ ?>
 			<div class="max-contain">
 			<h2>latest adventures</h2>	
-
-					<?php
-								$args = array( 'posts_per_page' => 4, 'post_type' => 'adventure'  );			
-								$adventure_posts = get_posts($args);
-								?>	
-								  <section class="adventures-wrapper">
-									<?php foreach ( $adventure_posts as $post ) : setup_postdata( $post );?>
-										<div class="container">
-											<article class="adventure-entry">
-												<?php the_post_thumbnail( 'medium' ); ?>
-													<div class="adventure-info">
-															<a href="<?php the_permalink(); ?>" class="adv-read-more">Read Entry</a>
-														<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );?>
-												</div>
-												</article>
-					</div>
-											<?php endforeach; wp_reset_postdata(); ?>
-											<!-- </div></div></div></div> -->
+		<?php	$args = array( 'posts_per_page' => 4, 'post_type' => 'adventure'  );
+					$adventure_posts = get_posts($args);?>
+				<section class="adventures-wrapper">
+					<?php foreach ( $adventure_posts as $post ) : setup_postdata( $post );?>
+						<div class="container">
+							<article class="adventure-entry">
+								<?php the_post_thumbnail( 'medium' ); ?>
+								<div class="adventure-info">
+										<a href="<?php the_permalink(); ?>" class="adv-read-more">Read Entry</a>
+									<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );?>
+								</div>
+							</article>
+						</div>
+					<?php endforeach; wp_reset_postdata(); ?>
 				</section>
 				<p class="advreadmore"><a href="<?php echo home_url() . '/adventure'; ?>" class="moreadventures read-more">More Adventures</a><p>
 			</div>
