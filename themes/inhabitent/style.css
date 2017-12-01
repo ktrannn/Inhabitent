@@ -1292,32 +1292,44 @@ a:visited {
     .adventures-wrapper .container:nth-child(1) .adventure-entry img {
       width: 100%;
       height: 500px; }
-    .adventures-wrapper .container:nth-child(1) .adventure-entry .entry-title a {
-      font-size: 2.5rem; }
-    .adventures-wrapper .container:nth-child(1) .adventure-entry .entry-title a:hover {
-      color: #f0e4d1; }
+    .adventures-wrapper .container:nth-child(1) .adventure-entry .entry-title {
+      font-family: "Merriweather";
+      text-transform: capitalize; }
+      .adventures-wrapper .container:nth-child(1) .adventure-entry .entry-title a {
+        font-size: 2.5rem; }
+      .adventures-wrapper .container:nth-child(1) .adventure-entry .entry-title a:hover {
+        color: #f0e4d1; }
   .adventures-wrapper .container:nth-child(2) {
     position: relative;
     grid-column: 3/5; }
     .adventures-wrapper .container:nth-child(2) .adventure-entry img {
       width: 100%;
       height: 250px; }
-    .adventures-wrapper .container:nth-child(2) .adventure-entry .entry-title a {
-      font-size: 2.5rem; }
-    .adventures-wrapper .container:nth-child(2) .adventure-entry .entry-title a:hover {
-      color: #f0e4d1; }
+    .adventures-wrapper .container:nth-child(2) .adventure-entry .entry-title {
+      font-family: "Merriweather";
+      text-transform: capitalize; }
+      .adventures-wrapper .container:nth-child(2) .adventure-entry .entry-title a {
+        font-size: 2.5rem; }
+      .adventures-wrapper .container:nth-child(2) .adventure-entry .entry-title a:hover {
+        color: #f0e4d1; }
   .adventures-wrapper .container:nth-child(3) {
     position: relative; }
     .adventures-wrapper .container:nth-child(3) .adventure-entry img {
       height: 235px; }
     .adventures-wrapper .container:nth-child(3) .adventure-entry a:hover {
       color: #f0e4d1; }
+    .adventures-wrapper .container:nth-child(3) .adventure-entry .entry-title {
+      font-family: "Merriweather";
+      text-transform: capitalize; }
   .adventures-wrapper .container:nth-child(4) {
     position: relative; }
     .adventures-wrapper .container:nth-child(4) .adventure-entry img {
       height: 235px; }
     .adventures-wrapper .container:nth-child(4) .adventure-entry a:hover {
       color: #f0e4d1; }
+    .adventures-wrapper .container:nth-child(4) .adventure-entry .entry-title {
+      font-family: "Merriweather";
+      text-transform: capitalize; }
   .adventures-wrapper .adventure-entry .adventure-info {
     position: absolute;
     top: 0;

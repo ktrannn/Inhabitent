@@ -181,6 +181,8 @@ a:visited{
         height:500px;
       }
       .entry-title{
+        font-family:$mainfont;
+        text-transform: capitalize;
          a{
           font-size:2.5rem;
         }
@@ -199,6 +201,8 @@ a:visited{
         height:250px;
       }
       .entry-title{
+        font-family:$mainfont;
+        text-transform: capitalize;
         a{
          font-size:2.5rem;
        }
@@ -217,6 +221,10 @@ a:visited{
       a:hover{
         color: $yellow;
       }
+      .entry-title{
+        font-family:$mainfont;
+        text-transform: capitalize;
+      }
     }
   }
   .container:nth-child(4){
@@ -227,6 +235,10 @@ a:visited{
       }
       a:hover{
         color: $yellow;
+      }
+      .entry-title{
+        font-family:$mainfont;
+        text-transform: capitalize;
       }
     }
   }
