@@ -1,6 +1,6 @@
 <form role="search" method="get" class="search-form" action="<?php echo home_url( '/' ); ?>">
 	<div class="search-bar-nav">
-		<a id="search-toggle" class="search-toggle" aria-hidden="true">
+		<a class="search-toggle" aria-hidden="true">
 			<i class="fa fa-search"></i>
 		</a>
 		<label id="search-box">
