@@ -2,16 +2,16 @@
 Inhabitent is a multipage wordpress ecommerce and blog website made with a customizable Wordpress theme that utilizes custom post types, taxonomies, custom loops and a custom widgit sidebar. Includes complete 404 page, toggle search bar, and customized login logo.
 
 ## Technologies Used
-*Gulp 
-*Jquery
-*HTML
-*CSS
-*SASS
-*Wordpress
-*PHP
-*javascript
-*Plugins
-*Databases
+* Gulp 
+* Jquery
+* HTML
+* CSS
+* SASS
+* Wordpress
+* PHP
+* javascript
+* Plugins
+* Databases
 
 ## Functionality:
 * Built using WordPress CMS
