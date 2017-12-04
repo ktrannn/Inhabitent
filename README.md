@@ -40,4 +40,4 @@ Inhabitent is a multipage wordpress ecommerce and blog website made with a custo
 
 ### Project Screenshots
 
-<img src="https://i.imgur.com/lzGU653.png" width="250" height="650"><img src="https://i.imgur.com/fP94ACv.png" width="250" height="650"><img src="https://i.imgur.com/CT5hrX7.png" width="250" height="650"><img src="https://i.imgur.com/zhosXKr.png" width="250" height="650"><img src="https://i.imgur.com/6Ru2CE9.png" width="250" height="650"><img src="https://i.imgur.com/YAQMXSe.png" width="250" height="650"><img src="https://i.imgur.com/h8ngDWW.png" width="250" height="650">
+<img src="https://i.imgur.com/lzGU653.png" width="300"><img src="https://i.imgur.com/fP94ACv.png" width="300"><img src="https://i.imgur.com/CT5hrX7.png" width="300"><img src="https://i.imgur.com/zhosXKr.png" width="300"><img src="https://i.imgur.com/6Ru2CE9.png" width="300"><img src="https://i.imgur.com/YAQMXSe.png" width="300"><img src="https://i.imgur.com/h8ngDWW.png" width="300">
