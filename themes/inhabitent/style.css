@@ -617,7 +617,7 @@ input[type="submit"] {
   font-size: 1rem;
   font-weight: 400;
   border-radius: unset;
-  font-family: "Novecento";
+  font-family: "Novecento", Sans-Serif;
   text-transform: uppercase;
   font-size: 12px;
   font-size: 0.75rem;
@@ -671,7 +671,7 @@ input {
   background: transparent;
   width: 0px;
   border: none;
-  font-family: "Novecento"; }
+  font-family: "Novecento", Sans-Serif; }
 
 /* COMMENT SECTION SINGLE PAGE */
 .comment-form {
@@ -749,7 +749,7 @@ a {
             justify-content: space-between;
     padding-left: 5%;
     padding-right: 5%;
-    font-family: "Novecento"; }
+    font-family: "Novecento", Sans-Serif; }
   .hfeed .site-header .site-branding a img {
     height: 35px; }
 
@@ -900,7 +900,7 @@ a {
   border-left: #eee solid 1px; }
 
 .widget-title {
-  font-family: "Novecento"; }
+  font-family: "Novecento", Sans-Serif; }
 
 /* Search widget. */
 .widget_search .search-submit {
@@ -961,7 +961,7 @@ a {
   display: block; }
 
 .entry-header {
-  font-family: "Novecento";
+  font-family: "Novecento", Sans-Serif;
   position: relative; }
   .entry-header img {
     width: 100%; }
@@ -976,7 +976,7 @@ a {
   font-size: 2.0rem;
   max-width: 75%;
   color: #fff;
-  font-family: "Novecento"; }
+  font-family: "Novecento", Sans-Serif; }
 
 .single-post .comments-link a {
   text-decoration: none;
@@ -1004,7 +1004,7 @@ a {
   position: absolute; }
 
 .blog .entry-header a {
-  font-family: "Novecento";
+  font-family: "Novecento", Sans-Serif;
   color: #fff;
   text-decoration: none; }
 
@@ -1170,7 +1170,7 @@ object {
           justify-content: center; }
 
 .home .site-main h2 {
-  font-family: "Novecento";
+  font-family: "Novecento", Sans-Serif;
   text-align: center;
   font-size: 2rem;
   padding-top: 1rem;
@@ -1234,7 +1234,7 @@ object {
   .home .site-main .product-type-block-wrapper img {
     height: 65px; }
   .home .site-main .product-type-block-wrapper a.btn {
-    font-family: "Novecento";
+    font-family: "Novecento", Sans-Serif;
     background: #248A83;
     color: #fff;
     text-decoration: none;
@@ -1251,7 +1251,7 @@ object {
   border: 1px solid black;
   text-decoration: none;
   padding: .75rem 1.5rem;
-  font-family: "Novecento"; }
+  font-family: "Novecento", Sans-Serif; }
 
 a:visited {
   color: black; }
@@ -1267,7 +1267,7 @@ a:visited {
   text-transform: uppercase;
   text-decoration: none;
   padding: .75rem 1.5rem;
-  font-family: "Novecento"; }
+  font-family: "Novecento", Sans-Serif; }
 
 .adv-read-more {
   color: white;
@@ -1275,7 +1275,7 @@ a:visited {
   border: 1px solid white;
   text-decoration: none;
   padding: .75rem 1.5rem;
-  font-family: "Novecento"; }
+  font-family: "Novecento", Sans-Serif; }
   .adv-read-more a:visited {
     color: white; }
 
@@ -1293,7 +1293,7 @@ a:visited {
       width: 100%;
       height: 500px; }
     .adventures-wrapper .container:nth-child(1) .adventure-entry .entry-title {
-      font-family: "Merriweather";
+      font-family: "Merriweather", Sans-Serif;
       text-transform: capitalize; }
       .adventures-wrapper .container:nth-child(1) .adventure-entry .entry-title a {
         font-size: 2.5rem; }
@@ -1306,7 +1306,7 @@ a:visited {
       width: 100%;
       height: 250px; }
     .adventures-wrapper .container:nth-child(2) .adventure-entry .entry-title {
-      font-family: "Merriweather";
+      font-family: "Merriweather", Sans-Serif;
       text-transform: capitalize; }
       .adventures-wrapper .container:nth-child(2) .adventure-entry .entry-title a {
         font-size: 2.5rem; }
@@ -1319,7 +1319,7 @@ a:visited {
     .adventures-wrapper .container:nth-child(3) .adventure-entry a:hover {
       color: #f0e4d1; }
     .adventures-wrapper .container:nth-child(3) .adventure-entry .entry-title {
-      font-family: "Merriweather";
+      font-family: "Merriweather", Sans-Serif;
       text-transform: capitalize; }
   .adventures-wrapper .container:nth-child(4) {
     position: relative; }
@@ -1328,7 +1328,7 @@ a:visited {
     .adventures-wrapper .container:nth-child(4) .adventure-entry a:hover {
       color: #f0e4d1; }
     .adventures-wrapper .container:nth-child(4) .adventure-entry .entry-title {
-      font-family: "Merriweather";
+      font-family: "Merriweather", Sans-Serif;
       text-transform: capitalize; }
   .adventures-wrapper .adventure-entry .adventure-info {
     position: absolute;
@@ -1407,7 +1407,7 @@ a:visited {
   text-align: center; }
   .post-type-archive .page-header .page-title {
     border-bottom: none;
-    font-family: "Novecento"; }
+    font-family: "Novecento", Sans-Serif; }
 
 .post-type-archive .content-area {
   padding-bottom: 5rem; }
@@ -1421,7 +1421,7 @@ a:visited {
           justify-content: center;
   padding-bottom: 1rem;
   border-bottom: 1px dashed #e1e1e1;
-  font-family: "Novecento"; }
+  font-family: "Novecento", Sans-Serif; }
 
 .post-type-archive .shop-category {
   display: -webkit-box;
@@ -1447,12 +1447,12 @@ a:visited {
 
 .tax-product-type .tax-page-title {
   text-transform: uppercase;
-  font-family: "Novecento"; }
+  font-family: "Novecento", Sans-Serif; }
 
 .tax-product-type .taxonomy-description {
   font-size: 1rem;
   font-weight: lighter;
-  font-family: "Merriweather";
+  font-family: "Merriweather", Sans-Serif;
   text-transform: lowercase; }
 
 .tax-product-type .archive-product-content {
@@ -1487,7 +1487,7 @@ a:visited {
 
 /* SINGLE PRODUCT PAGE */
 .product-template-default .entry-title {
-  font-family: "Novecento";
+  font-family: "Novecento", Sans-Serif;
   color: #d99054;
   text-transform: uppercase; }
 
@@ -1528,7 +1528,7 @@ a:visited {
   background: #fff;
   border-radius: 0;
   font-size: 1rem;
-  font-family: "Novecento"; }
+  font-family: "Novecento", Sans-Serif; }
   .single-product-buttons:hover {
     background-color: #248A83;
     border: 1px solid #248A83;
@@ -1542,7 +1542,7 @@ a:visited {
 
 /* SEARCH */
 .search-results .page-title {
-  font-family: "Novecento"; }
+  font-family: "Novecento", Sans-Serif; }
 
 .search-results .type-product {
   padding-top: 3rem; }
@@ -1653,7 +1653,7 @@ a:visited {
   width: 200px !important; }
 
 .page-template-default h1 {
-  font-family: "Novecento"; }
+  font-family: "Novecento", Sans-Serif; }
 
 /*  FOOTER */
 .site-footer {
@@ -1673,7 +1673,7 @@ a:visited {
 .footer-text {
   color: #d99054; }
   .footer-text h3 {
-    font-family: "Novecento"; }
+    font-family: "Novecento", Sans-Serif; }
 
 .footer-text p {
   color: #fff; }
@@ -1710,7 +1710,7 @@ a:visited {
     margin-left: auto;
     margin-right: auto; }
     .post-5 .entry-content h2 {
-      font-family: "Novecento";
+      font-family: "Novecento", Sans-Serif;
       text-align: center;
       font-size: 2.5rem; }
   .post-5 .entry-header {
@@ -1727,7 +1727,7 @@ a:visited {
         -ms-flex-align: center;
             align-items: center; }
     .post-5 .entry-header .entry-title {
-      font-family: "Novecento";
+      font-family: "Novecento", Sans-Serif;
       text-transform: uppercase;
       font-size: 3rem;
       margin-left: auto;
@@ -1781,7 +1781,7 @@ a:visited {
   text-align: center;
   font-size: 2.5rem;
   border-bottom: 1px dashed #e1e1e1;
-  font-family: "Novecento"; }
+  font-family: "Novecento", Sans-Serif; }
 
 .post-type-archive-adventure .entry-title {
   font-size: 3.1rem;
@@ -1790,7 +1790,7 @@ a:visited {
   background-color: transparent;
   font-size: 2.5rem;
   max-width: 100%;
-  font-family: "Merriweather";
+  font-family: "Merriweather", Sans-Serif;
   margin-top: 4rem; }
 
 .post-type-archive-adventure .entry-title a:hover {
